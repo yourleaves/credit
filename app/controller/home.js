@@ -18,6 +18,7 @@ class HomeController extends Controller {
       dataType: 'json',
     });
     ctx.body = result.data;
+
   }
 }
 

@@ -14,3 +14,115 @@ pid: 19870
 hostname: loveRain.local
 
 2018-04-13 17:38:15,276 ERROR 19882 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-04-13 18:04:00,566 ERROR 21459 [-/127.0.0.1/-/59ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21459
+hostname: loveRain.local
+
+2018-04-13 18:04:52,143 ERROR 21459 [-/127.0.0.1/-/23ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21459
+hostname: loveRain.local
+
+2018-04-13 18:04:53,049 ERROR 21602 [-/127.0.0.1/-/115ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:19:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21602
+hostname: loveRain.local
+
+2018-04-13 18:04:54,281 ERROR 21602 [-/127.0.0.1/-/90ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:19:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21602
+hostname: loveRain.local
+
+2018-04-13 18:04:54,901 ERROR 21602 [-/127.0.0.1/-/59ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:19:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21602
+hostname: loveRain.local
+
+2018-04-13 18:05:03,982 ERROR 21627 [-/127.0.0.1/-/71ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21627
+hostname: loveRain.local
+
+2018-04-13 18:05:04,908 ERROR 21627 [-/127.0.0.1/-/20ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21627
+hostname: loveRain.local
+
+2018-04-13 18:05:15,579 ERROR 21627 [-/127.0.0.1/-/25ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21627
+hostname: loveRain.local
+
+2018-04-13 18:05:16,603 ERROR 21646 [-/127.0.0.1/-/52ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21646
+hostname: loveRain.local
+
+2018-04-13 18:05:17,588 ERROR 21646 [-/127.0.0.1/-/50ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21646
+hostname: loveRain.local
+
+2018-04-13 18:05:18,232 ERROR 21646 [-/127.0.0.1/-/15ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21646
+hostname: loveRain.local
+
+2018-04-13 18:05:18,959 ERROR 21646 [-/127.0.0.1/-/16ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21646
+hostname: loveRain.local
+
+2018-04-13 18:05:19,534 ERROR 21646 [-/127.0.0.1/-/17ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21646
+hostname: loveRain.local
+
+2018-04-13 18:05:27,850 ERROR 21646 [-/127.0.0.1/-/22ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21646
+hostname: loveRain.local
+
+2018-04-13 18:05:28,630 ERROR 21658 [-/127.0.0.1/-/67ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21658
+hostname: loveRain.local
+
+2018-04-13 18:05:29,184 ERROR 21658 [-/127.0.0.1/-/30ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21658
+hostname: loveRain.local
+
