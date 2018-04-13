@@ -4,8 +4,7 @@ const Controller = require('egg').Controller;
 
 class ApiController extends Controller {
   async index() {
-    this.ctx.body = this.ctx.request.body;
-    this.ctx.session.user = "123";
+    this.ctx.body = this.ctx.request.querystring;
   }
   async login() {
     this.ctx.body = 'login';
