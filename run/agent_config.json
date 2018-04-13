@@ -135,6 +135,14 @@
       "defaultViewEngine": "",
       "mapping": {}
     },
+    "mysql": {
+      "default": {
+        "database": null,
+        "connectionLimit": 5
+      },
+      "app": true,
+      "agent": false
+    },
     "env": "local",
     "name": "credit",
     "keys": "<String len: 25>",
@@ -148,7 +156,9 @@
       "description": "",
       "private": true,
       "dependencies": {
+        "@alicloud/sms-sdk": "^1.0.9",
         "egg": "^2.2.1",
+        "egg-mysql": "^3.0.0",
         "egg-scripts": "^2.5.0"
       },
       "devDependencies": {
@@ -433,6 +443,17 @@
       "from": "/Users/chz/Desktop/credit/node_modules/egg/config/plugin.js",
       "path": "/Users/chz/Desktop/credit/node_modules/egg-view",
       "version": "2.1.0"
+    },
+    "mysql": {
+      "enable": true,
+      "package": "egg-mysql",
+      "name": "mysql",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/chz/Desktop/credit/config/plugin.js",
+      "path": "/Users/chz/Desktop/credit/node_modules/egg-mysql",
+      "version": "3.0.0"
     }
   }
 }

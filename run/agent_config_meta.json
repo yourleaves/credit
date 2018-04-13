@@ -133,6 +133,14 @@
     "defaultViewEngine": "/Users/chz/Desktop/credit/node_modules/egg-view/config/config.default.js",
     "mapping": "/Users/chz/Desktop/credit/node_modules/egg-view/config/config.default.js"
   },
+  "mysql": {
+    "default": {
+      "database": "/Users/chz/Desktop/credit/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/chz/Desktop/credit/node_modules/egg-mysql/config/config.default.js"
+    },
+    "app": "/Users/chz/Desktop/credit/node_modules/egg-mysql/config/config.default.js",
+    "agent": "/Users/chz/Desktop/credit/node_modules/egg-mysql/config/config.default.js"
+  },
   "env": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
   "name": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
   "proxy": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
@@ -145,7 +153,9 @@
     "description": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
     "private": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
     "dependencies": {
+      "@alicloud/sms-sdk": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
       "egg": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
       "egg-scripts": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
