@@ -27,7 +27,7 @@
         "matching": "<Function anonymous>"
       },
       "xframe": {
-        "enable": false,
+        "enable": true,
         "value": "SAMEORIGIN",
         "matching": "<Function anonymous>"
       },
