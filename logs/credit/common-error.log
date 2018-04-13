@@ -288,3 +288,92 @@ hostname: loveRain.local
 pid: 23073
 hostname: loveRain.local
 
+2018-04-13 20:26:25,906 ERROR 25359 nodejs.TypeError: Cannot read property 'ctx' of undefined
+    at /Users/chz/Desktop/credit/app/controller/api.js:41:13
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 25359
+hostname: loveRain.local
+
+2018-04-13 20:26:28,472 ERROR 25359 nodejs.TypeError: Cannot read property 'ctx' of undefined
+    at /Users/chz/Desktop/credit/app/controller/api.js:41:13
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 25359
+hostname: loveRain.local
+
+2018-04-13 20:32:56,009 ERROR 25621 [-/127.0.0.1/-/12ms GET /api?type=vercode&phone=18331004424] nodejs.ReferenceError: 发送短信 is not defined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:28:7)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 25621
+hostname: loveRain.local
+
+2018-04-13 20:33:06,715 ERROR 25621 [-/127.0.0.1/-/2ms GET /api?type=vercode&phone=18331004424] nodejs.ReferenceError: 发送短信 is not defined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:28:7)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 25621
+hostname: loveRain.local
+
+2018-04-13 21:48:09,847 ERROR 27998 [-/127.0.0.1/-/19ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: this.app.mysql.insert is not a function
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:43)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 27998
+hostname: loveRain.local
+
+2018-04-13 21:48:21,496 ERROR 28020 [-/127.0.0.1/-/10ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.ReferenceError: app is not defined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:28)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28020
+hostname: loveRain.local
+
+2018-04-13 21:48:52,751 ERROR 28060 [-/127.0.0.1/-/11ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28060
+hostname: loveRain.local
+

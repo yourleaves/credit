@@ -12,3 +12,15 @@
 2018-04-13 17:15:49,974 INFO 18249 [Timer] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-04-14 00:00:01.000
 2018-04-13 18:55:26,611 INFO 23045 [Timer] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-04-14 00:00:00.000
 2018-04-13 18:55:26,612 INFO 23045 [Timer] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-04-14 00:00:01.000
+2018-04-13 20:20:35,717 INFO 25169 [Timer] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-04-14 00:00:00.000
+2018-04-13 20:20:35,718 INFO 25169 [Timer] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-04-14 00:00:01.000
+2018-04-13 20:26:11,097 INFO 25358 [Timer] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-04-14 00:00:00.000
+2018-04-13 20:26:11,098 INFO 25358 [Timer] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-04-14 00:00:01.000
+2018-04-13 21:19:34,009 INFO 27056 [Timer] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-04-14 00:00:00.000
+2018-04-13 21:19:34,010 INFO 27056 [Timer] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-04-14 00:00:01.000
+2018-04-13 21:22:15,984 INFO 27199 [Timer] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-04-14 00:00:00.000
+2018-04-13 21:22:15,986 INFO 27199 [Timer] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-04-14 00:00:01.000
+2018-04-13 21:37:57,572 INFO 27631 [Timer] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-04-14 00:00:00.000
+2018-04-13 21:37:57,573 INFO 27631 [Timer] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-04-14 00:00:01.000
+2018-04-13 21:40:47,182 INFO 27751 [Timer] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-04-14 00:00:00.000
+2018-04-13 21:40:47,183 INFO 27751 [Timer] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-04-14 00:00:01.000
