@@ -40,7 +40,7 @@ class ApiController extends Controller {
   async ApiLogin(request_params,timestamp,ctx){
     const account = request_params["account"];
     const password = request_params["password"];
-    const isUser = await ctx.service.mysql.findUser(number);
+    const isUser = await ctx.service.mysql.findUser(account);
       if (isUser == "FAIL"){
         ctx.body = await this.jsonResult("",201,"用户不存在!");
         return;

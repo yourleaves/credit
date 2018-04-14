@@ -95,6 +95,7 @@
         "/Users/chz/Desktop/credit/node_modules/egg-i18n/config/locales",
         "/Users/chz/Desktop/credit/node_modules/egg-watcher/config/locales",
         "/Users/chz/Desktop/credit/node_modules/egg-multipart/config/locales",
+        "/Users/chz/Desktop/credit/node_modules/egg-development/config/locales",
         "/Users/chz/Desktop/credit/node_modules/egg-schedule/config/locales",
         "/Users/chz/Desktop/credit/node_modules/egg-logrotator/config/locales",
         "/Users/chz/Desktop/credit/node_modules/egg-static/config/locales",
@@ -109,7 +110,7 @@
       "functionName": "__"
     },
     "watcher": {
-      "type": "default",
+      "type": "development",
       "eventSources": {
         "default": "/Users/chz/Desktop/credit/node_modules/egg-watcher/lib/event-sources/default",
         "development": "/Users/chz/Desktop/credit/node_modules/egg-watcher/lib/event-sources/development"
@@ -126,10 +127,17 @@
       "fileExtensions": [],
       "whitelist": null
     },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/var/root/logs/credit/egg-schedule.log"
+        "file": "/Users/chz/Desktop/credit/logs/credit/egg-schedule.log"
       }
     },
     "logrotator": {
@@ -146,14 +154,13 @@
       "dir": "/Users/chz/Desktop/credit/app/public",
       "dynamic": true,
       "preload": false,
-      "buffer": true,
+      "buffer": false,
       "maxFiles": 1000,
-      "maxAge": 31536000,
       "files": "<LRU>"
     },
     "view": {
       "root": "/Users/chz/Desktop/credit/app/view",
-      "cache": true,
+      "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
@@ -173,7 +180,7 @@
         "database": "credit"
       }
     },
-    "env": "prod",
+    "env": "local",
     "name": "credit",
     "keys": "<String len: 25>",
     "proxy": false,
@@ -259,19 +266,21 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "/var/root/logs/credit",
+      "dir": "/Users/chz/Desktop/credit/logs/credit",
       "encoding": "utf8",
-      "env": "prod",
+      "env": "local",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": true,
+      "disableConsoleAfterReady": false,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "credit-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {},
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
       "allowDebugAtProd": true,
       "type": "application"
     },
@@ -431,6 +440,21 @@
       "from": "/Users/chz/Desktop/credit/node_modules/egg/config/plugin.js",
       "path": "/Users/chz/Desktop/credit/node_modules/egg-multipart",
       "version": "2.0.0"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/chz/Desktop/credit/node_modules/egg/config/plugin.js",
+      "path": "/Users/chz/Desktop/credit/node_modules/egg-development",
+      "version": "2.2.0"
     },
     "schedule": {
       "enable": true,
