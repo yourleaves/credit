@@ -755,3 +755,163 @@ name: 'ClusterClientNoResponseError'
 pid: 61068
 hostname: loveRain.local
 
+2018-04-14 23:56:38,757 ERROR 64705 [-/127.0.0.1/-/31ms GET /api?interface=forget&phone=173342071590&password=fjweiofjoewifjwe&code=617826] nodejs.ReferenceError: jsonResult is not defined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:63:22)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 64705
+hostname: loveRain.local
+
+2018-04-14 23:57:21,471 ERROR 64782 nodejs.ReferenceError: result is not defined
+    at ApiController.jsonResult (/Users/chz/Desktop/credit/app/controller/api.js:148:18)
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:63:27)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 64782
+hostname: loveRain.local
+
+2018-04-14 23:57:22,965 ERROR 64782 nodejs.ReferenceError: result is not defined
+    at ApiController.jsonResult (/Users/chz/Desktop/credit/app/controller/api.js:148:18)
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:63:27)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 64782
+hostname: loveRain.local
+
+2018-04-14 23:57:29,267 ERROR 64782 nodejs.ReferenceError: result is not defined
+    at ApiController.jsonResult (/Users/chz/Desktop/credit/app/controller/api.js:148:18)
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:63:27)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 64782
+hostname: loveRain.local
+
+2018-04-14 23:57:29,932 ERROR 64794 [-/127.0.0.1/-/30ms GET /api?interface=forget&phone=173342071590&password=fjweiofjoewifjwe&code=617826] nodejs.ReferenceError: result is not defined
+    at ApiController.jsonResult (/Users/chz/Desktop/credit/app/controller/api.js:148:18)
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:63:33)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 64794
+hostname: loveRain.local
+
+2018-04-14 23:57:30,273 ERROR 64794 [-/127.0.0.1/-/3ms GET /api?interface=forget&phone=173342071590&password=fjweiofjoewifjwe&code=617826] nodejs.ReferenceError: result is not defined
+    at ApiController.jsonResult (/Users/chz/Desktop/credit/app/controller/api.js:148:18)
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:63:33)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 64794
+hostname: loveRain.local
+
+2018-04-14 23:57:44,772 ERROR 64794 [-/127.0.0.1/-/5ms GET /api?interface=forget&phone=173342071590&password=fjweiofjoewifjwe&code=617826] nodejs.ReferenceError: result is not defined
+    at ApiController.jsonResult (/Users/chz/Desktop/credit/app/controller/api.js:148:18)
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:63:33)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 64794
+hostname: loveRain.local
+
+2018-04-15 00:05:00,672 ERROR 65072 [-/127.0.0.1/-/12ms GET /api?interface=forget&phone=173342071590&password=fjweiofjoewifjwe&code=617826] nodejs.ReferenceError: reqMap is not defined
+    at ApiController.ApiForget (/Users/chz/Desktop/credit/app/controller/api.js:108:20)
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:57:18)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 65072
+hostname: loveRain.local
+
+2018-04-15 00:05:35,934 ERROR 65072 [-/127.0.0.1/-/5ms GET /api?interface=forget&phone=173342071590&password=fjweiofjoewifjwe&code=617826] nodejs.ReferenceError: reqMap is not defined
+    at ApiController.ApiForget (/Users/chz/Desktop/credit/app/controller/api.js:108:20)
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:57:18)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 65072
+hostname: loveRain.local
+
+2018-04-15 00:05:36,867 ERROR 65072 [-/127.0.0.1/-/3ms GET /api?interface=forget&phone=173342071590&password=fjweiofjoewifjwe&code=617826] nodejs.ReferenceError: reqMap is not defined
+    at ApiController.ApiForget (/Users/chz/Desktop/credit/app/controller/api.js:108:20)
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:57:18)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 65072
+hostname: loveRain.local
+
+2018-04-15 00:07:11,408 ERROR 65153 [-/127.0.0.1/-/8ms GET /api?interface=forget&phone=173342071590&password=fjweiofjoewifjwe&code=617826] nodejs.TypeError: Cannot read property 'phone' of undefined
+    at ApiController.ApiForget (/Users/chz/Desktop/credit/app/controller/api.js:109:26)
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:57:18)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 65153
+hostname: loveRain.local
+
+2018-04-15 00:07:11,653 ERROR 65153 [-/127.0.0.1/-/2ms GET /api?interface=forget&phone=173342071590&password=fjweiofjoewifjwe&code=617826] nodejs.TypeError: Cannot read property 'phone' of undefined
+    at ApiController.ApiForget (/Users/chz/Desktop/credit/app/controller/api.js:109:26)
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:57:18)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 65153
+hostname: loveRain.local
+
+2018-04-15 00:07:11,868 ERROR 65153 [-/127.0.0.1/-/1ms GET /api?interface=forget&phone=173342071590&password=fjweiofjoewifjwe&code=617826] nodejs.TypeError: Cannot read property 'phone' of undefined
+    at ApiController.ApiForget (/Users/chz/Desktop/credit/app/controller/api.js:109:26)
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:57:18)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 65153
+hostname: loveRain.local
+
+2018-04-15 00:07:12,085 ERROR 65153 [-/127.0.0.1/-/1ms GET /api?interface=forget&phone=173342071590&password=fjweiofjoewifjwe&code=617826] nodejs.TypeError: Cannot read property 'phone' of undefined
+    at ApiController.ApiForget (/Users/chz/Desktop/credit/app/controller/api.js:109:26)
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:57:18)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+
+pid: 65153
+hostname: loveRain.local
+
