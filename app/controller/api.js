@@ -53,6 +53,11 @@ class ApiController extends Controller {
       const number = reqMap["phone"];
       const code = reqMap["code"];
       const password = reqMap["password"];
+      const isUser = await ctx.service.mysql.findUser(number);
+        if (isUser == "FAIL"){
+          ctx.body = jsonResult("",201,"用户不存在!");
+          return;
+        }
       //判断验证码
       const result = await this.ctx.service.mysql.getVercode(number);
       if (result["code"] == code){

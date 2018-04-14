@@ -2763,3 +2763,18 @@
 2018-04-14 23:30:14,155 INFO 63975 [egg-security] compose 7 middlewares into one security middleware
 2018-04-14 23:30:14,345 INFO 63975 [egg-watcher:app] watcher start success
 2018-04-14 23:30:14,421 INFO 63975 [egg-mysql] instance[0] status OK, rds currentTime: Sat Apr 14 2018 23:30:14 GMT+0800 (CST)
+2018-04-14 23:45:09,015 INFO 64396 [egg:logger] init all loggers with options: {"dir":"/Users/chz/Desktop/credit/logs/credit","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"credit-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-04-14 23:45:09,087 INFO 64396 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-04-14 23:45:09,088 INFO 64396 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-04-14 23:45:09,106 INFO 64396 [egg-mysql] connecting root@127.0.0.1:3306/credit
+2018-04-14 23:45:09,674 INFO 64396 [egg-static] starting static serve /public/ -> /Users/chz/Desktop/credit/app/public
+2018-04-14 23:45:09,683 INFO 64396 [egg-security] use csrf middleware
+2018-04-14 23:45:09,687 INFO 64396 [egg-security] use methodnoallow middleware
+2018-04-14 23:45:09,688 INFO 64396 [egg-security] use noopen middleware
+2018-04-14 23:45:09,689 INFO 64396 [egg-security] use nosniff middleware
+2018-04-14 23:45:09,690 INFO 64396 [egg-security] use xssProtection middleware
+2018-04-14 23:45:09,690 INFO 64396 [egg-security] use xframe middleware
+2018-04-14 23:45:09,691 INFO 64396 [egg-security] use dta middleware
+2018-04-14 23:45:09,691 INFO 64396 [egg-security] compose 7 middlewares into one security middleware
+2018-04-14 23:45:10,076 INFO 64396 [egg-watcher:app] watcher start success
+2018-04-14 23:45:10,085 INFO 64396 [egg-mysql] instance[0] status OK, rds currentTime: Sat Apr 14 2018 23:45:10 GMT+0800 (CST)
