@@ -23,7 +23,7 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "start": "egg-scripts start --daemon --title=egg-server-credit",
+    "start": "egg-scripts start --daemon --title=egg-server-credit --port 80",
     "stop": "egg-scripts stop --title=egg-server-credit",
     "dev": "egg-bin dev --port 80",
     "debug": "egg-bin debug",

@@ -81,7 +81,7 @@
       "cookieMaxAge": "1y"
     },
     "watcher": {
-      "type": "development",
+      "type": "default",
       "eventSources": {
         "default": "/Users/chz/Desktop/credit/node_modules/egg-watcher/lib/event-sources/default",
         "development": "/Users/chz/Desktop/credit/node_modules/egg-watcher/lib/event-sources/development"
@@ -98,17 +98,10 @@
       "fileExtensions": [],
       "whitelist": null
     },
-    "development": {
-      "watchDirs": [],
-      "ignoreDirs": [],
-      "fastReady": false,
-      "reloadOnDebug": true,
-      "overrideDefault": false
-    },
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "/Users/chz/Desktop/credit/logs/credit/egg-schedule.log"
+        "file": "/var/root/logs/credit/egg-schedule.log"
       }
     },
     "logrotator": {
@@ -125,12 +118,13 @@
       "dir": "/Users/chz/Desktop/credit/app/public",
       "dynamic": true,
       "preload": false,
-      "buffer": false,
-      "maxFiles": 1000
+      "buffer": true,
+      "maxFiles": 1000,
+      "maxAge": 31536000
     },
     "view": {
       "root": "/Users/chz/Desktop/credit/app/view",
-      "cache": false,
+      "cache": true,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
       "mapping": {}
@@ -150,7 +144,7 @@
         "database": "credit"
       }
     },
-    "env": "local",
+    "env": "prod",
     "name": "credit",
     "keys": "<String len: 25>",
     "proxy": false,
@@ -182,7 +176,7 @@
         "node": ">=8.9.0"
       },
       "scripts": {
-        "start": "egg-scripts start --daemon --title=egg-server-credit",
+        "start": "egg-scripts start --daemon --title=egg-server-credit --port 80",
         "stop": "egg-scripts stop --title=egg-server-credit",
         "dev": "egg-bin dev --port 80",
         "debug": "egg-bin debug",
@@ -235,21 +229,19 @@
       }
     },
     "logger": {
-      "dir": "/Users/chz/Desktop/credit/logs/credit",
+      "dir": "/var/root/logs/credit",
       "encoding": "utf8",
-      "env": "local",
+      "env": "prod",
       "level": "INFO",
       "consoleLevel": "INFO",
-      "disableConsoleAfterReady": false,
+      "disableConsoleAfterReady": true,
       "outputJSON": false,
       "buffer": true,
       "appLogName": "credit-web.log",
       "coreLogName": "egg-web.log",
       "agentLogName": "egg-agent.log",
       "errorLogName": "common-error.log",
-      "coreLogger": {
-        "consoleLevel": "WARN"
-      },
+      "coreLogger": {},
       "allowDebugAtProd": true,
       "type": "agent"
     },
@@ -389,21 +381,6 @@
       "from": "/Users/chz/Desktop/credit/node_modules/egg/config/plugin.js",
       "path": "/Users/chz/Desktop/credit/node_modules/egg-multipart",
       "version": "2.0.0"
-    },
-    "development": {
-      "enable": true,
-      "package": "egg-development",
-      "name": "development",
-      "dependencies": [
-        "watcher"
-      ],
-      "optionalDependencies": [],
-      "env": [
-        "local"
-      ],
-      "from": "/Users/chz/Desktop/credit/node_modules/egg/config/plugin.js",
-      "path": "/Users/chz/Desktop/credit/node_modules/egg-development",
-      "version": "2.2.0"
     },
     "schedule": {
       "enable": true,
