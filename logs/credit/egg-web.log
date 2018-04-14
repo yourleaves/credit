@@ -3258,3 +3258,18 @@
 2018-04-15 01:02:46,321 INFO 1111 [egg-security] compose 7 middlewares into one security middleware
 2018-04-15 01:02:46,459 INFO 1111 [egg-watcher:app] watcher start success
 2018-04-15 01:02:46,462 INFO 1111 [egg-mysql] instance[0] status OK, rds currentTime: Sun Apr 15 2018 01:02:46 GMT+0800 (CST)
+2018-04-15 01:09:43,565 INFO 1356 [egg:logger] init all loggers with options: {"dir":"/Users/chz/Desktop/credit/logs/credit","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"credit-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-04-15 01:09:43,626 INFO 1356 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-04-15 01:09:43,626 INFO 1356 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-04-15 01:09:43,655 INFO 1356 [egg-mysql] connecting root@127.0.0.1:3306/credit
+2018-04-15 01:09:43,857 INFO 1356 [egg-static] starting static serve /public/ -> /Users/chz/Desktop/credit/app/public
+2018-04-15 01:09:43,861 INFO 1356 [egg-security] use csrf middleware
+2018-04-15 01:09:43,862 INFO 1356 [egg-security] use methodnoallow middleware
+2018-04-15 01:09:43,863 INFO 1356 [egg-security] use noopen middleware
+2018-04-15 01:09:43,864 INFO 1356 [egg-security] use nosniff middleware
+2018-04-15 01:09:43,865 INFO 1356 [egg-security] use xssProtection middleware
+2018-04-15 01:09:43,866 INFO 1356 [egg-security] use xframe middleware
+2018-04-15 01:09:43,867 INFO 1356 [egg-security] use dta middleware
+2018-04-15 01:09:43,867 INFO 1356 [egg-security] compose 7 middlewares into one security middleware
+2018-04-15 01:09:44,026 INFO 1356 [egg-watcher:app] watcher start success
+2018-04-15 01:09:44,028 INFO 1356 [egg-mysql] instance[0] status OK, rds currentTime: Sun Apr 15 2018 01:09:44 GMT+0800 (CST)
