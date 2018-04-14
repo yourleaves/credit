@@ -171,7 +171,14 @@
         "connectionLimit": 5
       },
       "app": true,
-      "agent": false
+      "agent": false,
+      "client": {
+        "host": "127.0.0.1",
+        "port": "3306",
+        "user": "root",
+        "password": "<String len: 0>",
+        "database": "credit"
+      }
     },
     "env": "local",
     "name": "credit",

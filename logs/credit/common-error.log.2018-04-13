@@ -1,0 +1,1024 @@
+2018-04-13 17:38:14,062 ERROR 19870 [-/127.0.0.1/-/19ms GET /api?name=1&key=1] nodejs.ReferenceError: app is not defined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:7:21)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 19870
+hostname: loveRain.local
+
+2018-04-13 17:38:15,276 ERROR 19882 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-04-13 18:04:00,566 ERROR 21459 [-/127.0.0.1/-/59ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21459
+hostname: loveRain.local
+
+2018-04-13 18:04:52,143 ERROR 21459 [-/127.0.0.1/-/23ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21459
+hostname: loveRain.local
+
+2018-04-13 18:04:53,049 ERROR 21602 [-/127.0.0.1/-/115ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:19:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21602
+hostname: loveRain.local
+
+2018-04-13 18:04:54,281 ERROR 21602 [-/127.0.0.1/-/90ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:19:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21602
+hostname: loveRain.local
+
+2018-04-13 18:04:54,901 ERROR 21602 [-/127.0.0.1/-/59ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:19:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21602
+hostname: loveRain.local
+
+2018-04-13 18:05:03,982 ERROR 21627 [-/127.0.0.1/-/71ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21627
+hostname: loveRain.local
+
+2018-04-13 18:05:04,908 ERROR 21627 [-/127.0.0.1/-/20ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21627
+hostname: loveRain.local
+
+2018-04-13 18:05:15,579 ERROR 21627 [-/127.0.0.1/-/25ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21627
+hostname: loveRain.local
+
+2018-04-13 18:05:16,603 ERROR 21646 [-/127.0.0.1/-/52ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21646
+hostname: loveRain.local
+
+2018-04-13 18:05:17,588 ERROR 21646 [-/127.0.0.1/-/50ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21646
+hostname: loveRain.local
+
+2018-04-13 18:05:18,232 ERROR 21646 [-/127.0.0.1/-/15ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21646
+hostname: loveRain.local
+
+2018-04-13 18:05:18,959 ERROR 21646 [-/127.0.0.1/-/16ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21646
+hostname: loveRain.local
+
+2018-04-13 18:05:19,534 ERROR 21646 [-/127.0.0.1/-/17ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21646
+hostname: loveRain.local
+
+2018-04-13 18:05:27,850 ERROR 21646 [-/127.0.0.1/-/22ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21646
+hostname: loveRain.local
+
+2018-04-13 18:05:28,630 ERROR 21658 [-/127.0.0.1/-/67ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21658
+hostname: loveRain.local
+
+2018-04-13 18:05:29,184 ERROR 21658 [-/127.0.0.1/-/30ms GET /] nodejs.TypeError: Assignment to constant variable.
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:20:9)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21658
+hostname: loveRain.local
+
+2018-04-13 18:28:26,342 ERROR 21832 [-/127.0.0.1/-/31ms GET /] nodejs.RequestError: connect ECONNREFUSED 47.95.235.222:80 (req "error"), POST http://47.95.235.222 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":3,"errorSocketCount":0,"timeoutSocketCount":3,"requestCount":23,"freeSockets":{},"sockets":{"47.95.235.222:80:":1},"requests":{}})
+headers: {}
+    at Object.exports._errnoException (util.js:1033:11)
+    at exports._exceptionWithHostPort (util.js:1056:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1099:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '47.95.235.222'
+port: 80
+name: 'RequestError'
+data: undefined
+path: '/'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 29, keepAliveSocket: false, data: undefined, requestUrls: [ 'http://47.95.235.222/' ], timing: null, remoteAddress: '', remotePort: '' }
+pid: 21832
+hostname: loveRain.local
+
+2018-04-13 18:28:31,418 ERROR 21832 [-/127.0.0.1/-/16ms GET /] nodejs.RequestError: connect ECONNREFUSED 47.95.235.222:80 (req "error"), POST http://47.95.235.222 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":5,"createSocketErrorCount":0,"closeSocketCount":4,"errorSocketCount":0,"timeoutSocketCount":3,"requestCount":23,"freeSockets":{},"sockets":{"47.95.235.222:80:":1},"requests":{}})
+headers: {}
+    at Object.exports._errnoException (util.js:1033:11)
+    at exports._exceptionWithHostPort (util.js:1056:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1099:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '47.95.235.222'
+port: 80
+name: 'RequestError'
+data: undefined
+path: '/'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 14, keepAliveSocket: false, data: undefined, requestUrls: [ 'http://47.95.235.222/' ], timing: null, remoteAddress: '', remotePort: '' }
+pid: 21832
+hostname: loveRain.local
+
+2018-04-13 18:28:39,793 ERROR 21832 [-/127.0.0.1/-/37ms GET /] nodejs.RequestError: connect ECONNREFUSED 47.95.235.222:80 (req "error"), POST http://47.95.235.222 -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":6,"createSocketErrorCount":0,"closeSocketCount":5,"errorSocketCount":0,"timeoutSocketCount":3,"requestCount":23,"freeSockets":{},"sockets":{"47.95.235.222:80:":1},"requests":{}})
+headers: {}
+    at Object.exports._errnoException (util.js:1033:11)
+    at exports._exceptionWithHostPort (util.js:1056:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1099:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '47.95.235.222'
+port: 80
+name: 'RequestError'
+data: undefined
+path: '/'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 36, keepAliveSocket: false, data: undefined, requestUrls: [ 'http://47.95.235.222/' ], timing: null, remoteAddress: '', remotePort: '' }
+pid: 21832
+hostname: loveRain.local
+
+2018-04-13 18:51:11,000 ERROR 22894 [-/127.0.0.1/-/15ms GET /api?type=1&name=1&key=1] nodejs.ReferenceError: login is not defined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:10:7)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 22894
+hostname: loveRain.local
+
+2018-04-13 18:51:23,384 ERROR 22894 [-/127.0.0.1/-/2ms GET /api?type=1&name=1&key=1] nodejs.ReferenceError: login is not defined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:10:7)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 22894
+hostname: loveRain.local
+
+2018-04-13 18:55:27,354 ERROR 23046 [-/127.0.0.1/-/11ms GET /api?type=1&name=1&key=1] nodejs.ReferenceError: login is not defined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:10:7)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 23046
+hostname: loveRain.local
+
+2018-04-13 18:55:56,828 ERROR 23046 [-/127.0.0.1/-/1ms GET /api?type=1&name=1&key=1] nodejs.ReferenceError: login is not defined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:10:7)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 23046
+hostname: loveRain.local
+
+2018-04-13 18:55:57,610 ERROR 23073 [-/127.0.0.1/-/15ms GET /api?type=1&name=1&key=1] nodejs.ReferenceError: ctx is not defined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:10:18)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 23073
+hostname: loveRain.local
+
+2018-04-13 18:55:57,989 ERROR 23073 [-/127.0.0.1/-/1ms GET /api?type=1&name=1&key=1] nodejs.ReferenceError: ctx is not defined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:10:18)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 23073
+hostname: loveRain.local
+
+2018-04-13 18:55:58,499 ERROR 23073 [-/127.0.0.1/-/0ms GET /api?type=1&name=1&key=1] nodejs.ReferenceError: ctx is not defined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:10:18)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 23073
+hostname: loveRain.local
+
+2018-04-13 20:26:25,906 ERROR 25359 nodejs.TypeError: Cannot read property 'ctx' of undefined
+    at /Users/chz/Desktop/credit/app/controller/api.js:41:13
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 25359
+hostname: loveRain.local
+
+2018-04-13 20:26:28,472 ERROR 25359 nodejs.TypeError: Cannot read property 'ctx' of undefined
+    at /Users/chz/Desktop/credit/app/controller/api.js:41:13
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 25359
+hostname: loveRain.local
+
+2018-04-13 20:32:56,009 ERROR 25621 [-/127.0.0.1/-/12ms GET /api?type=vercode&phone=18331004424] nodejs.ReferenceError: 发送短信 is not defined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:28:7)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 25621
+hostname: loveRain.local
+
+2018-04-13 20:33:06,715 ERROR 25621 [-/127.0.0.1/-/2ms GET /api?type=vercode&phone=18331004424] nodejs.ReferenceError: 发送短信 is not defined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:28:7)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 25621
+hostname: loveRain.local
+
+2018-04-13 21:48:09,847 ERROR 27998 [-/127.0.0.1/-/19ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: this.app.mysql.insert is not a function
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:43)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 27998
+hostname: loveRain.local
+
+2018-04-13 21:48:21,496 ERROR 28020 [-/127.0.0.1/-/10ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.ReferenceError: app is not defined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:28)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28020
+hostname: loveRain.local
+
+2018-04-13 21:48:52,751 ERROR 28060 [-/127.0.0.1/-/11ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28060
+hostname: loveRain.local
+
+2018-04-13 21:59:20,743 ERROR 28420 [-/127.0.0.1/-/11ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28420
+hostname: loveRain.local
+
+2018-04-13 21:59:21,804 ERROR 28420 [-/127.0.0.1/-/2ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28420
+hostname: loveRain.local
+
+2018-04-13 21:59:23,162 ERROR 28420 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28420
+hostname: loveRain.local
+
+2018-04-13 21:59:39,826 ERROR 28462 [-/127.0.0.1/-/11ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28462
+hostname: loveRain.local
+
+2018-04-13 21:59:40,728 ERROR 28462 [-/127.0.0.1/-/2ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28462
+hostname: loveRain.local
+
+2018-04-13 21:59:41,517 ERROR 28462 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28462
+hostname: loveRain.local
+
+2018-04-13 22:00:05,822 ERROR 28499 [-/127.0.0.1/-/11ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28499
+hostname: loveRain.local
+
+2018-04-13 22:00:07,932 ERROR 28499 [-/127.0.0.1/-/2ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28499
+hostname: loveRain.local
+
+2018-04-13 22:00:11,114 ERROR 28499 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28499
+hostname: loveRain.local
+
+2018-04-13 22:00:11,784 ERROR 28499 [-/127.0.0.1/-/15ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28499
+hostname: loveRain.local
+
+2018-04-13 22:00:12,130 ERROR 28499 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28499
+hostname: loveRain.local
+
+2018-04-13 22:00:12,589 ERROR 28499 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28499
+hostname: loveRain.local
+
+2018-04-13 22:00:13,019 ERROR 28499 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28499
+hostname: loveRain.local
+
+2018-04-13 22:00:13,421 ERROR 28499 [-/127.0.0.1/-/0ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28499
+hostname: loveRain.local
+
+2018-04-13 22:00:13,898 ERROR 28499 [-/127.0.0.1/-/0ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28499
+hostname: loveRain.local
+
+2018-04-13 22:00:14,296 ERROR 28499 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28499
+hostname: loveRain.local
+
+2018-04-13 22:00:14,888 ERROR 28499 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28499
+hostname: loveRain.local
+
+2018-04-13 22:00:15,749 ERROR 28499 [-/127.0.0.1/-/0ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28499
+hostname: loveRain.local
+
+2018-04-13 22:00:16,675 ERROR 28499 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28499
+hostname: loveRain.local
+
+2018-04-13 22:00:17,426 ERROR 28499 [-/127.0.0.1/-/2ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 28499
+hostname: loveRain.local
+
+2018-04-13 22:11:04,963 ERROR 29143 [-/127.0.0.1/-/14ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 29143
+hostname: loveRain.local
+
+2018-04-13 22:11:06,468 ERROR 29143 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 29143
+hostname: loveRain.local
+
+2018-04-13 22:11:07,382 ERROR 29143 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 29143
+hostname: loveRain.local
+
+2018-04-13 22:11:08,220 ERROR 29143 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 29143
+hostname: loveRain.local
+
+2018-04-13 22:26:08,244 ERROR 32026 [-/127.0.0.1/-/15ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 32026
+hostname: loveRain.local
+
+2018-04-13 22:26:10,004 ERROR 32026 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 32026
+hostname: loveRain.local
+
+2018-04-13 22:26:11,089 ERROR 32026 [-/127.0.0.1/-/0ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 32026
+hostname: loveRain.local
+
+2018-04-13 22:26:12,211 ERROR 32026 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 32026
+hostname: loveRain.local
+
+2018-04-13 22:26:12,909 ERROR 32026 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 32026
+hostname: loveRain.local
+
+2018-04-13 22:26:13,591 ERROR 32026 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 32026
+hostname: loveRain.local
+
+2018-04-13 22:26:14,276 ERROR 32026 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 32026
+hostname: loveRain.local
+
+2018-04-13 22:26:14,866 ERROR 32026 [-/127.0.0.1/-/2ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 32026
+hostname: loveRain.local
+
+2018-04-13 22:26:15,653 ERROR 32026 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 32026
+hostname: loveRain.local
+
+2018-04-13 22:26:16,227 ERROR 32026 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 32026
+hostname: loveRain.local
+
+2018-04-13 22:26:16,421 ERROR 32026 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 32026
+hostname: loveRain.local
+
+2018-04-13 22:26:16,607 ERROR 32026 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 32026
+hostname: loveRain.local
+
+2018-04-13 22:26:16,884 ERROR 32026 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 32026
+hostname: loveRain.local
+
+2018-04-13 22:26:17,098 ERROR 32026 [-/127.0.0.1/-/2ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 32026
+hostname: loveRain.local
+
+2018-04-13 23:50:31,951 ERROR 45896 [-/127.0.0.1/-/12ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 45896
+hostname: loveRain.local
+
+2018-04-13 23:50:32,891 ERROR 45896 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 45896
+hostname: loveRain.local
+
+2018-04-13 23:50:33,560 ERROR 45896 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 45896
+hostname: loveRain.local
+
+2018-04-13 23:50:47,098 ERROR 45919 [-/127.0.0.1/-/18ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 45919
+hostname: loveRain.local
+
+2018-04-13 23:50:48,000 ERROR 45919 [-/127.0.0.1/-/1ms GET /api?interface=vercode&phone=17334071590&type=1] nodejs.TypeError: Cannot read property 'insert' of undefined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:35:37)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 45919
+hostname: loveRain.local
+

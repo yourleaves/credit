@@ -1,4 +1,19 @@
 {
+  "mysql": {
+    "client": {
+      "host": "/Users/chz/Desktop/credit/config/config.default.js",
+      "port": "/Users/chz/Desktop/credit/config/config.default.js",
+      "user": "/Users/chz/Desktop/credit/config/config.default.js",
+      "password": "/Users/chz/Desktop/credit/config/config.default.js",
+      "database": "/Users/chz/Desktop/credit/config/config.default.js"
+    },
+    "app": "/Users/chz/Desktop/credit/config/config.default.js",
+    "agent": "/Users/chz/Desktop/credit/config/config.default.js",
+    "default": {
+      "database": "/Users/chz/Desktop/credit/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/chz/Desktop/credit/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
   "keys": "/Users/chz/Desktop/credit/config/config.default.js",
   "middleware": "/Users/chz/Desktop/credit/config/config.default.js",
   "session": {
@@ -132,14 +147,6 @@
     "defaultExtension": "/Users/chz/Desktop/credit/node_modules/egg-view/config/config.default.js",
     "defaultViewEngine": "/Users/chz/Desktop/credit/node_modules/egg-view/config/config.default.js",
     "mapping": "/Users/chz/Desktop/credit/node_modules/egg-view/config/config.default.js"
-  },
-  "mysql": {
-    "default": {
-      "database": "/Users/chz/Desktop/credit/node_modules/egg-mysql/config/config.default.js",
-      "connectionLimit": "/Users/chz/Desktop/credit/node_modules/egg-mysql/config/config.default.js"
-    },
-    "app": "/Users/chz/Desktop/credit/node_modules/egg-mysql/config/config.default.js",
-    "agent": "/Users/chz/Desktop/credit/node_modules/egg-mysql/config/config.default.js"
   },
   "env": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
   "name": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
