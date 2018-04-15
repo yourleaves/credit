@@ -14,7 +14,7 @@ module.exports = app => {
             if (isUser == "OK"){
                 return "DUP";
             }else{
-                const result = await app.mysql.insert('cd_user', { name: account,key:password,time:timestamp}); 
+                const result = await app.mysql.insert('cd_user', { name: account,key:password,time:timestamp});
                 if(result.serverStatus == 2){
                      return "OK";
                 }else{
@@ -78,7 +78,37 @@ module.exports = app => {
               }else{
                 return "FAIL";
               }
-
          }
+
+         async getUserScore(id) {
+            const result = await app.mysql.select('cd_user_score', { // 搜索 post 表
+                where: { userid: number}, // WHERE 条件
+                columns: ['score'], // 要查询的表字段
+                orders: [['id','desc']], // 排序方式
+                limit: 1, // 返回数据量
+                offset: 0, // 数据偏移量
+              });
+              if (result.length > 0){
+                return result[0];
+              }else{
+                return "FAIL";
+              }
+         }
+
+         async getUserLimit(id) {
+            const result = await app.mysql.select('cd_user_limit', { // 搜索 post 表
+                where: { userid: id}, // WHERE 条件
+                orders: [['id','desc']], // 排序方式
+                limit: 1, // 返回数据量
+                offset: 0, // 数据偏移量
+              });
+              if (result.length > 0){
+                return result[0];
+              }else{
+                return "FAIL";
+              }
+         }
+
+
     }
 };

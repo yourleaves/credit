@@ -6,8 +6,7 @@ const SMSClient = require('@alicloud/sms-sdk');
 const accessKeyId = 'LTAIe6V8YY6pYZ9r';
 const secretAccessKey = 'I5Xh7CbAVfndbLzCYBFpVyUSZL1lHW';
 const smsClient = new SMSClient({accessKeyId, secretAccessKey});
-
-
+const ms = require('ms');
 
 class ApiController extends Controller {
   async index() {
@@ -30,6 +29,9 @@ class ApiController extends Controller {
       case "vercode":
         await this.ApiSendSMS(request_params,timestamp,ctx);
         break;
+      case "score":
+        await this.getCreditScore(request_params,timestamp,ctx);
+        break;
       default:
     }
 
@@ -45,14 +47,16 @@ class ApiController extends Controller {
         ctx.body = await this.jsonResult("",201,"用户不存在!");
         return;
       }
-
     const result = await this.ctx.service.mysql.login(account,password,timestamp);
     if (result == "OK"){
+      ctx.session.user = account;
+      ctx.session.maxAge = ms('10d');
       ctx.body = await this.jsonResult("登录成功",200,"登录成功!");
     }else{
       ctx.body = await this.jsonResult("",201,"账号密码错误!");
     }
   }
+
   //注册接口
   async ApiRegister(request_params,timestamp,ctx){
     const number = request_params["phone"];
@@ -139,20 +143,49 @@ class ApiController extends Controller {
       const result = await ctx.service.mysql.addVercode(number,vercode,type,timestamp);
       ctx.body = await this.jsonResult("验证码发送成功",200,"验证码发送成功!");
     }else{
-      ctx.body = await this.jsonResult("登录成功",201,"验证码发送次数过多请稍后再试!");
+      ctx.body = await this.jsonResult("验证码发送失败",201,"验证码发送次数过多请稍后再试!");
     }
 
   }
+
+  // 获取信用分
+
+  async getCreditScore(request_params,timestamp,ctx){
+    const is_login = await this.validateSession(ctx);
+    if (is_login == "FAIL"){
+      ctx.body = await this.jsonResult(ctx.session.user,202,"用户未登录!");
+      return;
+    }
+
+
+
+    ctx.body = await this.jsonResult("OK",200,"OK!");
+    
+  }
+
+
 //tools
+  
+  async  validateSession(ctx){
+    let user = ctx.session.user;
+    const isUser = await ctx.service.mysql.findUser(user);
+    if (isUser == "FAIL"){
+      return "FAIL"
+    }else{
+      ctx.session.maxAge = ms('10d');
+      return  "OK";
+    }
+  }
+
   async  jsonResult(result,code,mess){
     return {data:result,status:code,message:mess};
   }
 
   async getRandCode(n) {
-    var all = "0123456789";
+    var all = "123456789";
     var b = "";
     for (var i = 0; i < n; i++) {
-      var index = Math.floor(Math.random() * 9);
+      var index = Math.floor(Math.random() * 8);
       b += all.charAt(index);
     }
     return b;

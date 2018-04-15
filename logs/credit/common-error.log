@@ -931,3 +931,133 @@ pid: 977
 hostname: loveRain.local
 
 2018-04-15 01:04:11,159 ERROR 1111 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-04-15 12:34:16,044 ERROR 974 nodejs.ClusterClientNoResponseError: client no response in 39629835ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/chz/Desktop/credit/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 974
+hostname: loveRain.local
+
+2018-04-15 12:42:08,688 ERROR 974 nodejs.ClusterClientNoResponseError: client no response in 171551ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/chz/Desktop/credit/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 974
+hostname: loveRain.local
+
+2018-04-15 13:16:20,004 ERROR 3849 [-/127.0.0.1/-/21ms GET /api?interface=login&account=18331004424&password=890809] nodejs.TypeError: Cannot read property 'reponse' of undefined
+    at ApiController.ApiLogin (/Users/chz/Desktop/credit/app/controller/api.js:54:27)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 3849
+hostname: loveRain.local
+
+2018-04-15 13:16:47,384 ERROR 3849 [-/127.0.0.1/-/17ms GET /api?interface=login&account=18331004424&password=890809] nodejs.TypeError: Cannot read property 'reponse' of undefined
+    at ApiController.ApiLogin (/Users/chz/Desktop/credit/app/controller/api.js:54:27)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 3849
+hostname: loveRain.local
+
+2018-04-15 13:17:37,432 ERROR 3947 [-/127.0.0.1/-/20ms GET /api?interface=login&account=18331004424&password=890809] nodejs.TypeError: Cannot read property 'set' of undefined
+    at ApiController.ApiLogin (/Users/chz/Desktop/credit/app/controller/api.js:51:26)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 3947
+hostname: loveRain.local
+
+2018-04-15 13:32:00,528 ERROR 4239 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-04-15 13:40:55,346 ERROR 4825 A client (undefined:NaN) error [ECONNRESET] occurred: read ECONNRESET
+2018-04-15 15:41:05,885 ERROR 6748 [-/127.0.0.1/-/33ms GET /api?interface=login&account=17334071590&password=123456] nodejs.ReferenceError: ms is not defined
+    at ApiController.ApiLogin (/Users/chz/Desktop/credit/app/controller/api.js:54:28)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 6748
+hostname: loveRain.local
+
+2018-04-15 15:42:41,239 ERROR 6748 [-/127.0.0.1/-/23ms GET /api?interface=login&account=17334071590&password=123456] nodejs.ReferenceError: ms is not defined
+    at ApiController.ApiLogin (/Users/chz/Desktop/credit/app/controller/api.js:54:28)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 6748
+hostname: loveRain.local
+
+2018-04-15 16:10:52,681 ERROR 8179 [-/127.0.0.1/-/16ms GET /api?interface=score&phone=18331004424] nodejs.TypeError: Cannot read property 'length' of undefined
+    at ApiController.isLogin (/Users/chz/Desktop/credit/app/controller/api.js:167:27)
+    at ApiController.getCreditScore (/Users/chz/Desktop/credit/app/controller/api.js:155:33)
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:33:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+
+pid: 8179
+hostname: loveRain.local
+
+2018-04-15 16:10:53,533 ERROR 8179 [-/127.0.0.1/-/4ms GET /api?interface=score&phone=18331004424] nodejs.TypeError: Cannot read property 'length' of undefined
+    at ApiController.isLogin (/Users/chz/Desktop/credit/app/controller/api.js:167:27)
+    at ApiController.getCreditScore (/Users/chz/Desktop/credit/app/controller/api.js:155:33)
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:33:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+
+pid: 8179
+hostname: loveRain.local
+
+2018-04-15 16:25:19,166 ERROR 8816 [-/127.0.0.1/-/15ms GET /api?interface=score&phone=17334071590] nodejs.ReferenceError: tx is not defined
+    at ApiController.isLogin (/Users/chz/Desktop/credit/app/controller/api.js:167:16)
+    at ApiController.getCreditScore (/Users/chz/Desktop/credit/app/controller/api.js:155:33)
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:33:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+
+pid: 8816
+hostname: loveRain.local
+
+2018-04-15 16:25:28,389 ERROR 8816 [-/127.0.0.1/-/4ms GET /api?interface=score&phone=17334071590] nodejs.ReferenceError: tx is not defined
+    at ApiController.isLogin (/Users/chz/Desktop/credit/app/controller/api.js:167:16)
+    at ApiController.getCreditScore (/Users/chz/Desktop/credit/app/controller/api.js:155:33)
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:33:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+
+pid: 8816
+hostname: loveRain.local
+
+2018-04-15 16:25:29,491 ERROR 8816 [-/127.0.0.1/-/1ms GET /api?interface=score&phone=17334071590] nodejs.ReferenceError: tx is not defined
+    at ApiController.isLogin (/Users/chz/Desktop/credit/app/controller/api.js:167:16)
+    at ApiController.getCreditScore (/Users/chz/Desktop/credit/app/controller/api.js:155:33)
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:33:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+
+pid: 8816
+hostname: loveRain.local
+
