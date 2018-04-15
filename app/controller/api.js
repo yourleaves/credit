@@ -32,6 +32,12 @@ class ApiController extends Controller {
       case "score":
         await this.getCreditScore(request_params,timestamp,ctx);
         break;
+      case "limit":
+        await this.getUserLimit(request_params,timestamp,ctx);
+        break; 
+      case "uploadInfo":
+        await this.getUserLimit(request_params,timestamp,ctx);
+        break;
       default:
     }
 
@@ -151,29 +157,49 @@ class ApiController extends Controller {
   // 获取信用分
 
   async getCreditScore(request_params,timestamp,ctx){
-    const is_login = await this.validateSession(ctx);
-    if (is_login == "FAIL"){
+    const user = await this.validateSession(ctx);
+    if (user == "FAIL"){
       ctx.body = await this.jsonResult(ctx.session.user,202,"用户未登录!");
       return;
     }
 
+    const socre = await ctx.service.mysql.getUserScore(user["id"]) 
+    if (socre == "FAIL"){
+      ctx.body = await this.jsonResult({"socre":"0"},200,"请求成功!");
+    }else{
+      ctx.body = await this.jsonResult(socre,200,"请求成功!");
+    }
+  }
+  // 获取当前额度
 
+  async getUserLimit(request_params,timestamp,ctx){
 
-    ctx.body = await this.jsonResult("OK",200,"OK!");
-    
+    const user = await this.validateSession(ctx);
+    if (user == "FAIL"){
+      ctx.body = await this.jsonResult(ctx.session.user,202,"用户未登录!");
+      return;
+    }
+
+    const limit = await ctx.service.mysql.getUserLimit(user["id"]) 
+    if (limit == "FAIL"){
+      ctx.body = await this.jsonResult({"socre":"0"},200,"请求成功!");
+    }else{
+      ctx.body = await this.jsonResult(limit,200,"请求成功!");
+    }
+
   }
 
 
 //tools
   
   async  validateSession(ctx){
-    let user = ctx.session.user;
-    const isUser = await ctx.service.mysql.findUser(user);
-    if (isUser == "FAIL"){
+    let phone = ctx.session.user;
+    const user = await ctx.service.mysql.findUser(phone);
+    if (user == "FAIL"){
       return "FAIL"
     }else{
       ctx.session.maxAge = ms('10d');
-      return  "OK";
+      return  user;
     }
   }
 

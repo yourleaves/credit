@@ -1061,3 +1061,63 @@ hostname: loveRain.local
 pid: 8816
 hostname: loveRain.local
 
+2018-04-15 17:52:59,980 ERROR 11471 [-/127.0.0.1/-/21ms GET /api?interface=score] nodejs.TypeError: ctx.service.mysql.getCreditScore is not a function
+    at ApiController.getCreditScore (/Users/chz/Desktop/credit/app/controller/api.js:160:44)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 11471
+hostname: loveRain.local
+
+2018-04-15 17:53:28,685 ERROR 11471 [-/127.0.0.1/-/14ms GET /api?interface=score] nodejs.TypeError: ctx.service.mysql.getCreditScore is not a function
+    at ApiController.getCreditScore (/Users/chz/Desktop/credit/app/controller/api.js:160:44)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 11471
+hostname: loveRain.local
+
+2018-04-15 17:53:56,324 ERROR 11530 [-/127.0.0.1/-/24ms GET /api?interface=score] nodejs.ReferenceError: number is not defined
+    at mysql.getUserScore (/Users/chz/Desktop/credit/app/service/mysql.js:85:34)
+    at ApiController.getCreditScore (/Users/chz/Desktop/credit/app/controller/api.js:160:44)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 11530
+hostname: loveRain.local
+
+2018-04-15 17:54:09,950 ERROR 11530 [-/127.0.0.1/-/8ms GET /api?interface=score] nodejs.ReferenceError: number is not defined
+    at mysql.getUserScore (/Users/chz/Desktop/credit/app/service/mysql.js:85:34)
+    at ApiController.getCreditScore (/Users/chz/Desktop/credit/app/controller/api.js:160:44)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 11530
+hostname: loveRain.local
+
+2018-04-15 17:54:10,874 ERROR 11530 [-/127.0.0.1/-/4ms GET /api?interface=score] nodejs.ReferenceError: number is not defined
+    at mysql.getUserScore (/Users/chz/Desktop/credit/app/service/mysql.js:85:34)
+    at ApiController.getCreditScore (/Users/chz/Desktop/credit/app/controller/api.js:160:44)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 11530
+hostname: loveRain.local
+
+2018-04-15 17:54:11,892 ERROR 11530 [-/127.0.0.1/-/22ms GET /api?interface=score] nodejs.ReferenceError: number is not defined
+    at mysql.getUserScore (/Users/chz/Desktop/credit/app/service/mysql.js:85:34)
+    at ApiController.getCreditScore (/Users/chz/Desktop/credit/app/controller/api.js:160:44)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 11530
+hostname: loveRain.local
+
+2018-04-15 17:57:05,297 ERROR 11671 [-/127.0.0.1/-/24ms GET /api?interface=score] nodejs.ReferenceError: score is not defined
+    at ApiController.getCreditScore (/Users/chz/Desktop/credit/app/controller/api.js:164:40)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 11671
+hostname: loveRain.local
+
+2018-04-15 17:57:19,812 ERROR 11671 [-/127.0.0.1/-/20ms GET /api?interface=score] nodejs.ReferenceError: score is not defined
+    at ApiController.getCreditScore (/Users/chz/Desktop/credit/app/controller/api.js:164:40)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 11671
+hostname: loveRain.local
+
