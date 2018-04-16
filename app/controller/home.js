@@ -2,12 +2,6 @@
 const path = require('path');
 const sendToWormhole = require('stream-wormhole');
 const Controller = require('egg').Controller;
-// const OSS = require('ali-oss');
-// const ossClient = new OSS({region: '华北 2',
-//   accessKeyId: accessKeyId,
-//   accessKeySecret: secretAccessKey,
-//   bucket: 'credit'
-// });
 
 class HomeController extends Controller {
   async index() {

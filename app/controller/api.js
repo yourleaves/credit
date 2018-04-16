@@ -37,7 +37,10 @@ class ApiController extends Controller {
       case "limit":
         await this.getUserLimit(request_params,timestamp,ctx);
         break; 
-      case "upload":
+      case "uploadImage":
+        await this.commitImage(request_params,timestamp,ctx);
+        break;
+      case "uploadInfo":
         await this.commitUserInfo(request_params,timestamp,ctx);
         break;
       case "authList":
@@ -254,10 +257,19 @@ class ApiController extends Controller {
 
   }
 
-  async upload() {
-    const ctx = this.ctx;
+  async commitImage(request_params,timestamp,ctx) {
+
+    const type = request_params["type"];
+
+    const user = await this.validateSession(ctx);
+    if (user == "FAIL"){
+      ctx.body = await this.jsonResult(ctx.session.user,202,"用户未登录!");
+      return;
+    }
+
     const parts = ctx.multipart();
     let part;
+    var imgs=new Array()
     while ((part = await parts()) != null) {
       if (part.length) {
         // arrays are busboy fields
@@ -279,7 +291,8 @@ class ApiController extends Controller {
         console.log('mime: ' + part.mime);
         let result;
         try {
-          result = await ctx.oss.put('egg-multipart-test/' + part.filename, part);
+          result = await ctx.oss.put('card/' + part.filename, part);
+          imgs.push(result['url']);
         } catch (err) {
           await sendToWormhole(part);
           throw err;
@@ -287,7 +300,22 @@ class ApiController extends Controller {
         console.log(result);
       }
     }
-    console.log('and we are done parsing the form!');
+
+    var keyVaule = request_params;
+    if (type == "1_1"){
+      keyVaule["image1"] = imgs[0];
+      keyVaule["image2"] = imgs[1];
+    }else{
+      keyVaule["image3"] = imgs[0];
+      keyVaule["image4"] = imgs[1];
+    }
+    
+    const user = await ctx.service.mysql.commitInfo(user,keyVaule);
+    if (result == "FAIL"){
+      ctx.body = await this.jsonResult("",201,"提交失败!");
+    }else{
+      ctx.body = await this.jsonResult("提交成功",200,"提交成功!");
+    }
   }
   
 //tools

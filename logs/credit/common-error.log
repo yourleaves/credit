@@ -1296,3 +1296,20 @@ code: 'ConnectionTimeoutError'
 pid: 29958
 hostname: loveRain.local
 
+2018-04-16 20:35:43,084 ERROR 31261 [-/127.0.0.1/-/30148ms POST /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.RequestError: socket hang up (req "error"), PUT http://lccredit.oss-cn-beijing-internal.aliyuncs.com/card/1.jpeg -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Client.requestError (/Users/chz/Desktop/credit/node_modules/egg-oss/node_modules/ali-oss/lib/client.js:473:13)
+    at requestError.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at Client.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    at Client.toPromise (/Users/chz/Desktop/credit/node_modules/co/index.js:118:63)
+    at next (/Users/chz/Desktop/credit/node_modules/co/index.js:99:29)
+    at onRejected (/Users/chz/Desktop/credit/node_modules/co/index.js:85:7)
+name: 'RequestError'
+status: -1
+code: 'RequestError'
+pid: 31261
+hostname: loveRain.local
+

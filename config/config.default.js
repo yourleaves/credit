@@ -19,7 +19,7 @@ module.exports = appInfo => {
           accessKeyId: 'LTAIe6V8YY6pYZ9r',
           accessKeySecret: 'I5Xh7CbAVfndbLzCYBFpVyUSZL1lHW',
           bucket: 'lccredit',
-          endpoint: 'oss-cn-beijing-internal.aliyuncs.com',
+          endpoint: 'oss-cn-beijing.aliyuncs.com',
           timeout: '60s',
         }
       }
