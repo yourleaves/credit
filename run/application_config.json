@@ -24,7 +24,8 @@
         "headerName": "x-csrf-token",
         "bodyName": "_csrf",
         "queryName": "_csrf",
-        "matching": "<Function anonymous>"
+        "ignore": "/api",
+        "matching": "<Function pathMatch>"
       },
       "xframe": {
         "enable": true,
@@ -407,7 +408,13 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/chz/Desktop/credit/node_modules/egg/config/plugin.js",
+      "from": "/Users/chz/Desktop/credit/config/plugin.js",
+      "csp": {
+        "ignore": "/upload",
+        "xframe": {
+          "enable": true
+        }
+      },
       "path": "/Users/chz/Desktop/credit/node_modules/egg-security",
       "version": "2.2.2"
     },

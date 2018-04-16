@@ -37,7 +37,7 @@ class HomeController extends Controller {
         let result;
         try {
           result = await ctx.oss.put('card/' + part.filename, part);
-          ctx.body = result;
+          ctx.body = result["url"];
         } catch (err) {
           await sendToWormhole(part);
           throw err;
@@ -45,6 +45,7 @@ class HomeController extends Controller {
         console.log(result);
       }
     }
+    
     console.log('and we are done parsing the form!');
   }
   

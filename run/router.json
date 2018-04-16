@@ -18,19 +18,6 @@
       "POST"
     ],
     "paramNames": [],
-    "path": "/upload",
-    "regexp": "/^\\/upload(?:\\/(?=$))?$/",
-    "stack": [
-      "wrappedController"
-    ]
-  },
-  {
-    "name": null,
-    "methods": [
-      "HEAD",
-      "GET"
-    ],
-    "paramNames": [],
     "path": "/api",
     "regexp": "/^\\/api(?:\\/(?=$))?$/",
     "stack": [

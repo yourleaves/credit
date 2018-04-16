@@ -166,7 +166,7 @@
         "accessKeyId": "LTAIe6V8YY6pYZ9r",
         "accessKeySecret": "<String len: 30>",
         "bucket": "lccredit",
-        "endpoint": "oss-cn-beijing-internal.aliyuncs.com",
+        "endpoint": "oss-cn-beijing.aliyuncs.com",
         "timeout": "60s"
       }
     },
@@ -350,7 +350,13 @@
         "session"
       ],
       "env": [],
-      "from": "/Users/chz/Desktop/credit/node_modules/egg/config/plugin.js",
+      "from": "/Users/chz/Desktop/credit/config/plugin.js",
+      "csp": {
+        "ignore": "/upload",
+        "xframe": {
+          "enable": true
+        }
+      },
       "path": "/Users/chz/Desktop/credit/node_modules/egg-security",
       "version": "2.2.2"
     },

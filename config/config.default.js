@@ -8,7 +8,7 @@ module.exports = appInfo => {
             host: '127.0.0.1',
             port: '3306',
             user: 'root',
-            password: 'youyoudai0123',
+            password: '',
             database: 'credit',    
         },
         app: true,
@@ -22,7 +22,7 @@ module.exports = appInfo => {
           endpoint: 'oss-cn-beijing.aliyuncs.com',
           timeout: '60s',
         }
-      }
+      },
   };
   config.view = {
     root: [
@@ -30,7 +30,11 @@ module.exports = appInfo => {
     ].join(','),
     defaultViewEngine: 'nunjucks'
   };
-  
+  config.security = {
+    csrf:{
+      ignore: '/api'
+    },
+  };
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_1523539184882_5839';
   // add your config here

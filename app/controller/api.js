@@ -315,8 +315,8 @@ class ApiController extends Controller {
       keyVaule["image4"] = imgs[1];
     }
 
-    const user = await ctx.service.mysql.commitInfo(user,keyVaule);
-    if (result == "FAIL"){
+    const commitResult = await ctx.service.mysql.commitInfo(user,keyVaule);
+    if (commitResult == "FAIL"){
       ctx.body = await this.jsonResult("",201,"提交失败!");
     }else{
       ctx.body = await this.jsonResult("提交成功",200,"提交成功!");

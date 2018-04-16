@@ -12,6 +12,15 @@ exports.nunjucks = {
   package: 'egg-view-nunjucks',
 };
 
+exports.security = {
+  csp: {
+    ignore: '/upload',
+    xframe: {
+      enable: true,
+    },
+  },
+};
+
 exports.oss = {
   enable: true,
   package: 'egg-oss',
