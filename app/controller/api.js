@@ -35,8 +35,11 @@ class ApiController extends Controller {
       case "limit":
         await this.getUserLimit(request_params,timestamp,ctx);
         break; 
-      case "uploadInfo":
-        await this.getUserLimit(request_params,timestamp,ctx);
+      case "upload":
+        await this.commitUserInfo(request_params,timestamp,ctx);
+        break;
+      case "authList":
+        await this.authList(request_params,timestamp,ctx);
         break;
       default:
     }
@@ -189,6 +192,43 @@ class ApiController extends Controller {
 
   }
 
+//获取当前认证列表
+
+  async authList(request_params,timestamp,ctx){
+
+    const user = await this.validateSession(ctx);
+    if (user == "FAIL"){
+      ctx.body = await this.jsonResult(ctx.session.user,202,"用户未登录!");
+      return;
+    }
+
+    const limit = await ctx.service.mysql.getAuthList(user["id"]) 
+    if (limit == "FAIL"){
+      ctx.body = await this.jsonResult({"card":"0","contact":"0","phone":"0","alipay":"0","taobao":"0","email":"0"},200,"请求成功!");
+    }else{
+      ctx.body = await this.jsonResult(limit,200,"请求成功!");
+    }
+
+  }
+
+//上传认证信息
+
+  async commitUserInfo(request_params,timestamp,ctx){
+    const type = request_params["type"];
+
+    const user = await this.validateSession(ctx);
+    if (user == "FAIL"){
+      ctx.body = await this.jsonResult(ctx.session.user,202,"用户未登录!");
+      return;
+    }
+    const result = await ctx.service.mysql.commitInfo(user["id"],request_params); 
+    if (result == "FAIL"){
+      ctx.body = await this.jsonResult({"socre":"0"},201,"提交失败!");
+    }else{
+      ctx.body = await this.jsonResult("提交成功",200,"提交成功!");
+    }
+
+  }
 
 //tools
   
