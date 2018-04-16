@@ -128,6 +128,11 @@ class ApiController extends Controller {
     //判断类型
     if (type == "1"){       //注册
       smsTemplate = "SMS_131750148";
+      const result = await ctx.service.mysql.findUser(number);
+      if (result != "FAIL"){
+        ctx.body = await this.jsonResult("",201,"用户已存在!");
+        return;
+      }
     }else if (type == "2"){ //修改密码
       smsTemplate = "SMS_131820140";
       const result = await ctx.service.mysql.findUser(number);
@@ -309,7 +314,7 @@ class ApiController extends Controller {
       keyVaule["image3"] = imgs[0];
       keyVaule["image4"] = imgs[1];
     }
-    
+
     const user = await ctx.service.mysql.commitInfo(user,keyVaule);
     if (result == "FAIL"){
       ctx.body = await this.jsonResult("",201,"提交失败!");
