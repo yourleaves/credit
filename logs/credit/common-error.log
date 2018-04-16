@@ -7,3 +7,10 @@ name: 'ClusterClientNoResponseError'
 pid: 18152
 hostname: loveRain.local
 
+2018-04-16 14:33:16,473 ERROR 21983 [-/127.0.0.1/-/30ms GET /api?interface=orderList] nodejs.TypeError: ctx.service.mysql.getOrderList is not a function
+    at ApiController.orderList (/Users/chz/Desktop/credit/app/controller/api.js:246:43)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 21983
+hostname: loveRain.local
+

@@ -310,7 +310,20 @@ module.exports = app => {
             }
         }
 
-        
+        async getOrderList(id) {
+            const result = await app.mysql.select('cd_user_order', { // 搜索 post 表
+                where: { userid: id}, // WHERE 条件
+                orders: [['id','desc']], // 排序方式
+                columns: ['no','time','status','money','times','deadline','total'], // 要查询的表字段
+                offset: 0, // 数据偏移量
+              });
+              if (result.length > 0){
+                return result;
+              }else{
+                return "FAIL";
+              }
+        }
+
 
     }
 };

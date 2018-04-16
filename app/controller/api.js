@@ -41,6 +41,9 @@ class ApiController extends Controller {
       case "authList":
         await this.authList(request_params,timestamp,ctx);
         break;
+      case "orderList":
+        await this.orderList(request_params,timestamp,ctx);
+        break;
       default:
     }
 
@@ -212,7 +215,7 @@ class ApiController extends Controller {
   }
 
 //上传认证信息
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
   async commitUserInfo(request_params,timestamp,ctx){
     const type = request_params["type"];
 
@@ -230,6 +233,24 @@ class ApiController extends Controller {
 
   }
 
+  //获取当前订单列表
+
+  async orderList(request_params,timestamp,ctx){
+
+    const user = await this.validateSession(ctx);
+    if (user == "FAIL"){
+      ctx.body = await this.jsonResult(ctx.session.user,202,"用户未登录!");
+      return;
+    }
+
+    const limit = await ctx.service.mysql.getOrderList(user["id"]) 
+    if (limit == "FAIL"){
+      ctx.body = await this.jsonResult([],200,"请求成功!");
+    }else{
+      ctx.body = await this.jsonResult(limit,200,"请求成功!");
+    }
+
+  }
 //tools
   
   async  validateSession(ctx){
