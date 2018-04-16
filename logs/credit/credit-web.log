@@ -1,0 +1,781 @@
+2018-04-16 16:36:30,221 WARN 24988 [-/127.0.0.1/-/3ms GET /upload] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 24988
+hostname: loveRain.local
+
+2018-04-16 16:37:19,445 WARN 24988 [-/127.0.0.1/-/2ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-16 16:37:19,447 WARN 24988 [-/127.0.0.1/-/4ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 24988
+hostname: loveRain.local
+
+2018-04-16 16:37:46,635 WARN 24988 [-/127.0.0.1/-/2ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-16 16:37:46,636 WARN 24988 [-/127.0.0.1/-/4ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 24988
+hostname: loveRain.local
+
+2018-04-16 16:37:50,669 WARN 24988 [-/127.0.0.1/-/1ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-16 16:37:50,670 WARN 24988 [-/127.0.0.1/-/2ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 24988
+hostname: loveRain.local
+
+2018-04-16 16:38:31,291 WARN 25057 [-/127.0.0.1/-/9ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-16 16:38:31,294 WARN 25057 [-/127.0.0.1/-/12ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 25057
+hostname: loveRain.local
+
+2018-04-16 16:43:32,190 WARN 25156 [-/127.0.0.1/-/6ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25156
+hostname: loveRain.local
+
+2018-04-16 16:46:48,257 WARN 25272 [-/127.0.0.1/-/5ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-16 16:46:48,262 WARN 25272 [-/127.0.0.1/-/11ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 25272
+hostname: loveRain.local
+
+2018-04-16 16:47:55,843 WARN 25272 [-/127.0.0.1/-/2ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25272
+hostname: loveRain.local
+
+2018-04-16 16:48:01,800 WARN 25272 [-/127.0.0.1/-/3ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25272
+hostname: loveRain.local
+
+2018-04-16 16:48:02,825 WARN 25272 [-/127.0.0.1/-/1ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25272
+hostname: loveRain.local
+
+2018-04-16 16:48:03,276 WARN 25272 [-/127.0.0.1/-/1ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25272
+hostname: loveRain.local
+
+2018-04-16 16:48:03,704 WARN 25272 [-/127.0.0.1/-/2ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25272
+hostname: loveRain.local
+
+2018-04-16 16:48:04,124 WARN 25272 [-/127.0.0.1/-/1ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25272
+hostname: loveRain.local
+
+2018-04-16 16:49:51,068 WARN 25272 [-/127.0.0.1/-/2ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25272
+hostname: loveRain.local
+
+2018-04-16 16:49:51,755 WARN 25272 [-/127.0.0.1/-/1ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25272
+hostname: loveRain.local
+
+2018-04-16 16:49:52,212 WARN 25272 [-/127.0.0.1/-/1ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25272
+hostname: loveRain.local
+
+2018-04-16 16:49:52,521 WARN 25272 [-/127.0.0.1/-/2ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25272
+hostname: loveRain.local
+
+2018-04-16 16:49:53,006 WARN 25272 [-/127.0.0.1/-/2ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25272
+hostname: loveRain.local
+
+2018-04-16 16:49:53,466 WARN 25272 [-/127.0.0.1/-/1ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25272
+hostname: loveRain.local
+
+2018-04-16 16:49:53,743 WARN 25272 [-/127.0.0.1/-/1ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25272
+hostname: loveRain.local
+
+2018-04-16 16:49:54,027 WARN 25272 [-/127.0.0.1/-/2ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25272
+hostname: loveRain.local
+
+2018-04-16 16:49:54,290 WARN 25272 [-/127.0.0.1/-/2ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25272
+hostname: loveRain.local
+
+2018-04-16 16:50:13,703 WARN 25272 [-/127.0.0.1/-/1ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-16 16:50:13,704 WARN 25272 [-/127.0.0.1/-/2ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 25272
+hostname: loveRain.local
+
+2018-04-16 16:50:15,630 WARN 25272 [-/127.0.0.1/-/0ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25272
+hostname: loveRain.local
+
+2018-04-16 16:50:26,217 WARN 25376 [-/127.0.0.1/-/15ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25376
+hostname: loveRain.local
+
+2018-04-16 16:50:27,100 WARN 25376 [-/127.0.0.1/-/4ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25376
+hostname: loveRain.local
+
+2018-04-16 16:50:27,780 WARN 25376 [-/127.0.0.1/-/1ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25376
+hostname: loveRain.local
+
+2018-04-16 16:54:03,686 WARN 25489 [-/127.0.0.1/-/18ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25489
+hostname: loveRain.local
+
+2018-04-16 16:54:04,568 WARN 25489 [-/127.0.0.1/-/5ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:17:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 25489
+hostname: loveRain.local
+
+2018-04-16 17:06:53,555 WARN 25853 [-/127.0.0.1/-/11ms POST /upload?_csrf=] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-16 17:06:53,559 WARN 25853 [-/127.0.0.1/-/15ms POST /upload?_csrf=] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 25853
+hostname: loveRain.local
+
+2018-04-16 17:07:13,430 WARN 25853 [-/127.0.0.1/-/3ms POST /upload?_csrf=] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-16 17:07:13,431 WARN 25853 [-/127.0.0.1/-/4ms POST /upload?_csrf=] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 25853
+hostname: loveRain.local
+
+2018-04-16 17:07:15,550 WARN 25853 [-/127.0.0.1/-/0ms POST /upload?_csrf=] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-16 17:07:15,551 WARN 25853 [-/127.0.0.1/-/1ms POST /upload?_csrf=] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 25853
+hostname: loveRain.local
+
+2018-04-16 17:07:21,183 WARN 25853 [-/127.0.0.1/-/1ms POST /upload?_csrf=] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-16 17:07:21,183 WARN 25853 [-/127.0.0.1/-/1ms POST /upload?_csrf=] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 25853
+hostname: loveRain.local
+
+2018-04-16 17:07:24,208 WARN 25853 [-/127.0.0.1/-/1ms POST /upload?_csrf=] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-16 17:07:24,210 WARN 25853 [-/127.0.0.1/-/2ms POST /upload?_csrf=] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 25853
+hostname: loveRain.local
+
+2018-04-16 17:07:34,521 WARN 25893 [-/127.0.0.1/-/11ms POST /upload?_csrf=] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-16 17:07:34,524 WARN 25893 [-/127.0.0.1/-/14ms POST /upload?_csrf=] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 25893
+hostname: loveRain.local
+
+2018-04-16 17:07:56,520 WARN 25916 [-/127.0.0.1/-/10ms POST /upload?_csrf=] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-16 17:07:56,523 WARN 25916 [-/127.0.0.1/-/13ms POST /upload?_csrf=] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 25916
+hostname: loveRain.local
+
+2018-04-16 17:18:53,438 WARN 26594 [-/127.0.0.1/-/6ms POST /upload?_csrf=] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-16 17:18:53,442 WARN 26594 [-/127.0.0.1/-/9ms POST /upload?_csrf=] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 26594
+hostname: loveRain.local
+
+2018-04-16 17:21:18,079 WARN 26697 [-/127.0.0.1/-/3ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:15:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 26697
+hostname: loveRain.local
+
+2018-04-16 17:22:03,794 WARN 26723 [-/127.0.0.1/-/3ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:15:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 26723
+hostname: loveRain.local
+
+2018-04-16 17:22:47,077 WARN 26723 [-/127.0.0.1/-/2ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:15:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 26723
+hostname: loveRain.local
+
+2018-04-16 17:22:57,978 WARN 26723 [-/127.0.0.1/-/3ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:15:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 26723
+hostname: loveRain.local
+
+2018-04-16 17:24:06,704 WARN 26723 [-/127.0.0.1/-/3ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:15:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 26723
+hostname: loveRain.local
+
+2018-04-16 17:24:07,408 WARN 26723 [-/127.0.0.1/-/2ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:15:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 26723
+hostname: loveRain.local
+
+2018-04-16 17:24:11,276 WARN 26723 [-/127.0.0.1/-/1ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:15:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 26723
+hostname: loveRain.local
+
+2018-04-16 17:24:21,897 WARN 26829 [-/127.0.0.1/-/46ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:15:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 26829
+hostname: loveRain.local
+
+2018-04-16 17:24:22,498 WARN 26829 [-/127.0.0.1/-/3ms GET /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:15:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 26829
+hostname: loveRain.local
+
+2018-04-16 17:24:59,083 WARN 26829 [-/127.0.0.1/-/30ms POST /upload?_csrf={-ZzslMl1UdIEKiEyaTRQHHIE}] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-16 17:24:59,084 WARN 26829 [-/127.0.0.1/-/31ms POST /upload?_csrf={-ZzslMl1UdIEKiEyaTRQHHIE}] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 26829
+hostname: loveRain.local
+
+2018-04-16 17:25:03,768 WARN 26829 [-/127.0.0.1/-/1ms GET /upload?_csrf={-ZzslMl1UdIEKiEyaTRQHHIE}] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:15:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 26829
+hostname: loveRain.local
+
+2018-04-16 17:26:32,484 WARN 26915 [-/127.0.0.1/-/30ms POST /upload?_csrf={-ZzslMl1UdIEKiEyaTRQHHIE}] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-16 17:26:32,487 WARN 26915 [-/127.0.0.1/-/34ms POST /upload?_csrf={-ZzslMl1UdIEKiEyaTRQHHIE}] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 26915
+hostname: loveRain.local
+
+2018-04-16 17:27:04,083 WARN 26949 [-/127.0.0.1/-/26ms POST /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:15:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 26949
+hostname: loveRain.local
+
+2018-04-16 17:27:38,645 WARN 26949 [-/127.0.0.1/-/3ms POST /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:15:23)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+message: 'Content-Type must be multipart/*'
+pid: 26949
+hostname: loveRain.local
+

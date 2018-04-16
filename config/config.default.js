@@ -1,5 +1,6 @@
 'use strict';
 
+const path = require('path');
 module.exports = appInfo => {
   const config = exports = {
       mysql: {
@@ -12,12 +13,28 @@ module.exports = appInfo => {
         },
         app: true,
         agent: false,
-    }
+      },
+      oss:{
+        client: {
+          accessKeyId: 'LTAIe6V8YY6pYZ9r',
+          accessKeySecret: 'I5Xh7CbAVfndbLzCYBFpVyUSZL1lHW',
+          bucket: 'credit',
+          endpoint: 'oss-cn-beijing-internal.aliyuncs.com',
+          timeout: '20s',
+        }
+      }
   };
+  config.view = {
+    root: [
+      path.join(appInfo.baseDir, 'app/view'),
+    ].join(','),
+    defaultViewEngine: 'nunjucks'
+  };
+  
   // use for cookie sign key, should change to your own and keep security
   config.keys = appInfo.name + '_1523539184882_5839';
   // add your config here
   config.middleware = [];
-  
+
   return config;
 };

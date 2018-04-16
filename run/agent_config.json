@@ -132,7 +132,7 @@
       "root": "/Users/chz/Desktop/credit/app/view",
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "",
+      "defaultViewEngine": "nunjucks",
       "mapping": {}
     },
     "mysql": {
@@ -150,6 +150,26 @@
         "database": "credit"
       }
     },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
+    },
+    "oss": {
+      "default": {
+        "timeout": "60s"
+      },
+      "useAgent": false,
+      "client": {
+        "accessKeyId": "your access key",
+        "accessKeySecret": "<String len: 18>",
+        "bucket": "your bucket name",
+        "endpoint": "oss-cn-hongkong.aliyun.com",
+        "timeout": "60s"
+      }
+    },
     "env": "local",
     "name": "credit",
     "keys": "<String len: 25>",
@@ -164,9 +184,13 @@
       "private": true,
       "dependencies": {
         "@alicloud/sms-sdk": "^1.0.9",
+        "ali-oss": "^5.1.0",
         "egg": "^2.2.1",
         "egg-mysql": "^3.0.0",
-        "egg-scripts": "^2.5.0"
+        "egg-oss": "^1.1.0",
+        "egg-scripts": "^2.5.0",
+        "egg-view-nunjucks": "^2.2.0",
+        "stream-wormhole": "^1.0.3"
       },
       "devDependencies": {
         "autod": "^3.0.1",
@@ -461,6 +485,31 @@
       "from": "/Users/chz/Desktop/credit/config/plugin.js",
       "path": "/Users/chz/Desktop/credit/node_modules/egg-mysql",
       "version": "3.0.0"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/chz/Desktop/credit/config/plugin.js",
+      "path": "/Users/chz/Desktop/credit/node_modules/egg-view-nunjucks",
+      "version": "2.2.0"
+    },
+    "oss": {
+      "enable": true,
+      "package": "egg-oss",
+      "name": "oss",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/chz/Desktop/credit/config/plugin.js",
+      "path": "/Users/chz/Desktop/credit/node_modules/egg-oss",
+      "version": "1.1.0"
     }
   }
 }

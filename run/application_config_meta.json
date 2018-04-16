@@ -14,6 +14,26 @@
       "connectionLimit": "/Users/chz/Desktop/credit/node_modules/egg-mysql/config/config.default.js"
     }
   },
+  "oss": {
+    "client": {
+      "accessKeyId": "/Users/chz/Desktop/credit/config/config.default.js",
+      "accessKeySecret": "/Users/chz/Desktop/credit/config/config.default.js",
+      "bucket": "/Users/chz/Desktop/credit/config/config.default.js",
+      "endpoint": "/Users/chz/Desktop/credit/config/config.default.js",
+      "timeout": "/Users/chz/Desktop/credit/config/config.default.js"
+    },
+    "default": {
+      "timeout": "/Users/chz/Desktop/credit/node_modules/egg-oss/config/config.default.js"
+    },
+    "useAgent": "/Users/chz/Desktop/credit/node_modules/egg-oss/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/chz/Desktop/credit/config/config.default.js",
+    "defaultViewEngine": "/Users/chz/Desktop/credit/config/config.default.js",
+    "cache": "/Users/chz/Desktop/credit/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/chz/Desktop/credit/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/chz/Desktop/credit/node_modules/egg-view/config/config.default.js"
+  },
   "keys": "/Users/chz/Desktop/credit/config/config.default.js",
   "middleware": "/Users/chz/Desktop/credit/config/config.default.js",
   "session": {
@@ -141,12 +161,12 @@
     "buffer": "/Users/chz/Desktop/credit/node_modules/egg-static/config/config.default.js",
     "maxFiles": "/Users/chz/Desktop/credit/node_modules/egg-static/config/config.default.js"
   },
-  "view": {
-    "root": "/Users/chz/Desktop/credit/node_modules/egg-view/config/config.default.js",
-    "cache": "/Users/chz/Desktop/credit/node_modules/egg-view/config/config.local.js",
-    "defaultExtension": "/Users/chz/Desktop/credit/node_modules/egg-view/config/config.default.js",
-    "defaultViewEngine": "/Users/chz/Desktop/credit/node_modules/egg-view/config/config.default.js",
-    "mapping": "/Users/chz/Desktop/credit/node_modules/egg-view/config/config.default.js"
+  "nunjucks": {
+    "autoescape": "/Users/chz/Desktop/credit/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/chz/Desktop/credit/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/chz/Desktop/credit/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/chz/Desktop/credit/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/chz/Desktop/credit/node_modules/egg-view-nunjucks/config/config.local.js"
   },
   "env": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
   "name": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
@@ -163,7 +183,10 @@
       "@alicloud/sms-sdk": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
       "egg": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
       "egg-mysql": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
-      "egg-scripts": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js"
+      "egg-oss": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
+      "stream-wormhole": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js"
     },
     "devDependencies": {
       "autod": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",

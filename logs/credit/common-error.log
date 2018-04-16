@@ -14,3 +14,1285 @@ hostname: loveRain.local
 pid: 21983
 hostname: loveRain.local
 
+2018-04-16 15:16:03,371 ERROR 23165 [-/127.0.0.1/-/16ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23165
+hostname: loveRain.local
+
+2018-04-16 15:17:24,521 ERROR 23205 [-/127.0.0.1/-/13ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23205
+hostname: loveRain.local
+
+2018-04-16 15:17:25,299 ERROR 23205 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23205
+hostname: loveRain.local
+
+2018-04-16 15:17:25,762 ERROR 23205 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23205
+hostname: loveRain.local
+
+2018-04-16 15:17:26,016 ERROR 23205 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23205
+hostname: loveRain.local
+
+2018-04-16 15:17:26,274 ERROR 23205 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23205
+hostname: loveRain.local
+
+2018-04-16 15:17:26,525 ERROR 23205 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23205
+hostname: loveRain.local
+
+2018-04-16 15:17:26,798 ERROR 23205 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23205
+hostname: loveRain.local
+
+2018-04-16 15:17:30,836 ERROR 23205 [-/127.0.0.1/-/3ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23205
+hostname: loveRain.local
+
+2018-04-16 15:17:31,130 ERROR 23205 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23205
+hostname: loveRain.local
+
+2018-04-16 15:17:31,457 ERROR 23205 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23205
+hostname: loveRain.local
+
+2018-04-16 15:17:31,536 ERROR 23205 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23205
+hostname: loveRain.local
+
+2018-04-16 15:17:31,685 ERROR 23205 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23205
+hostname: loveRain.local
+
+2018-04-16 15:17:31,794 ERROR 23205 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23205
+hostname: loveRain.local
+
+2018-04-16 15:17:32,093 ERROR 23205 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23205
+hostname: loveRain.local
+
+2018-04-16 15:17:32,110 ERROR 23205 A client (::ffff:127.0.0.1:65475) error [ECONNRESET] occurred: read ECONNRESET
+2018-04-16 15:17:32,113 ERROR 23205 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23205
+hostname: loveRain.local
+
+2018-04-16 15:17:36,777 ERROR 23248 [-/127.0.0.1/-/14ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23248
+hostname: loveRain.local
+
+2018-04-16 15:17:37,190 ERROR 23248 [-/127.0.0.1/-/3ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23248
+hostname: loveRain.local
+
+2018-04-16 15:17:37,439 ERROR 23248 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23248
+hostname: loveRain.local
+
+2018-04-16 15:17:37,707 ERROR 23248 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23248
+hostname: loveRain.local
+
+2018-04-16 15:17:37,943 ERROR 23248 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23248
+hostname: loveRain.local
+
+2018-04-16 15:17:38,025 ERROR 23248 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23248
+hostname: loveRain.local
+
+2018-04-16 15:17:59,545 ERROR 23271 [-/127.0.0.1/-/13ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:00,094 ERROR 23271 [-/127.0.0.1/-/3ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:00,469 ERROR 23271 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:00,708 ERROR 23271 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:00,937 ERROR 23271 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:01,151 ERROR 23271 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:01,221 ERROR 23271 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:01,475 ERROR 23271 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:01,557 ERROR 23271 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:01,806 ERROR 23271 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:01,815 ERROR 23271 A client (::ffff:127.0.0.1:49245) error [ECONNRESET] occurred: read ECONNRESET
+2018-04-16 15:18:01,819 ERROR 23271 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:02,030 ERROR 23271 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:02,269 ERROR 23271 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:02,281 ERROR 23271 A client (::ffff:127.0.0.1:49246) error [ECONNRESET] occurred: read ECONNRESET
+2018-04-16 15:18:02,284 ERROR 23271 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:02,555 ERROR 23271 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:02,608 ERROR 23271 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:02,851 ERROR 23271 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:23,129 ERROR 23271 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:23,631 ERROR 23271 [-/127.0.0.1/-/3ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:23,967 ERROR 23271 [-/127.0.0.1/-/3ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:24,241 ERROR 23271 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:24,532 ERROR 23271 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23271
+hostname: loveRain.local
+
+2018-04-16 15:18:24,644 ERROR 23289 [-/127.0.0.1/-/14ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23289
+hostname: loveRain.local
+
+2018-04-16 15:18:24,770 ERROR 23289 [-/127.0.0.1/-/7ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23289
+hostname: loveRain.local
+
+2018-04-16 15:18:25,031 ERROR 23289 [-/127.0.0.1/-/3ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23289
+hostname: loveRain.local
+
+2018-04-16 15:18:25,059 ERROR 23289 A client (::ffff:127.0.0.1:49353) error [ECONNRESET] occurred: read ECONNRESET
+2018-04-16 15:18:25,061 ERROR 23289 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23289
+hostname: loveRain.local
+
+2018-04-16 15:18:25,295 ERROR 23289 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23289
+hostname: loveRain.local
+
+2018-04-16 15:18:25,376 ERROR 23289 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23289
+hostname: loveRain.local
+
+2018-04-16 15:18:25,630 ERROR 23289 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23289
+hostname: loveRain.local
+
+2018-04-16 15:18:25,845 ERROR 23289 [-/127.0.0.1/-/2ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23289
+hostname: loveRain.local
+
+2018-04-16 15:18:25,916 ERROR 23289 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23289
+hostname: loveRain.local
+
+2018-04-16 15:18:26,176 ERROR 23289 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23289
+hostname: loveRain.local
+
+2018-04-16 15:18:26,545 ERROR 23289 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23289
+hostname: loveRain.local
+
+2018-04-16 15:18:26,772 ERROR 23289 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23289
+hostname: loveRain.local
+
+2018-04-16 15:18:27,003 ERROR 23289 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23289
+hostname: loveRain.local
+
+2018-04-16 15:18:27,239 ERROR 23289 [-/127.0.0.1/-/1ms GET /] nodejs.Error: Please set config.keys first
+    at Application.get keys [as keys] (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:252:15)
+    at Object.get cookies [as cookies] (/Users/chz/Desktop/credit/node_modules/egg/app/extend/context.js:18:65)
+    at Object.get [egg-security#CSRF_SECRET] (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:78:32)
+    at Object.ensureCsrfSecret (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:89:13)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:14:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+
+pid: 23289
+hostname: loveRain.local
+
+2018-04-16 17:12:41,088 ERROR 26226 [-/127.0.0.1/-/13ms GET /] nodejs.TypeError: Cannot read property 'csrfToken' of undefined
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:11:26)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 26226
+hostname: loveRain.local
+
+2018-04-16 17:12:49,567 ERROR 26226 [-/127.0.0.1/-/3ms GET /] nodejs.TypeError: Cannot read property 'csrfToken' of undefined
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:11:26)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 26226
+hostname: loveRain.local
+
+2018-04-16 17:12:49,923 ERROR 26226 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'csrfToken' of undefined
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:11:26)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 26226
+hostname: loveRain.local
+
+2018-04-16 17:12:50,750 ERROR 26226 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'csrfToken' of undefined
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:11:26)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 26226
+hostname: loveRain.local
+
+2018-04-16 17:12:51,295 ERROR 26226 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'csrfToken' of undefined
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:11:26)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 26226
+hostname: loveRain.local
+
+2018-04-16 17:12:51,528 ERROR 26243 [-/127.0.0.1/-/7ms GET /] nodejs.TypeError: Cannot read property 'csrf' of undefined
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:11:26)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 26243
+hostname: loveRain.local
+
+2018-04-16 17:12:51,903 ERROR 26243 [-/127.0.0.1/-/5ms GET /] nodejs.TypeError: Cannot read property 'csrf' of undefined
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:11:26)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 26243
+hostname: loveRain.local
+
+2018-04-16 17:12:52,469 ERROR 26243 [-/127.0.0.1/-/0ms GET /] nodejs.TypeError: Cannot read property 'csrf' of undefined
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:11:26)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 26243
+hostname: loveRain.local
+
+2018-04-16 17:12:58,760 ERROR 26243 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'csrf' of undefined
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:11:26)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 26243
+hostname: loveRain.local
+
+2018-04-16 17:12:59,114 ERROR 26243 [-/127.0.0.1/-/10ms GET /] nodejs.TypeError: Cannot read property 'csrf' of undefined
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:11:26)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 26243
+hostname: loveRain.local
+
+2018-04-16 17:12:59,763 ERROR 26243 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: Cannot read property 'csrf' of undefined
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:11:26)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 26243
+hostname: loveRain.local
+
+2018-04-16 17:15:32,074 ERROR 26414 [-/127.0.0.1/-/12ms GET /] nodejs.TypeError: ctx.request.header.cookie.get is not a function
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:11:42)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 26414
+hostname: loveRain.local
+
+2018-04-16 17:15:32,136 ERROR 26414 A client (::ffff:127.0.0.1:55906) error [ECONNRESET] occurred: read ECONNRESET
+2018-04-16 17:15:32,140 ERROR 26414 [-/127.0.0.1/-/2ms GET /] nodejs.TypeError: ctx.request.header.cookie.get is not a function
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:11:42)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 26414
+hostname: loveRain.local
+
+2018-04-16 17:15:32,481 ERROR 26414 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: ctx.request.header.cookie.get is not a function
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:11:42)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 26414
+hostname: loveRain.local
+
+2018-04-16 17:15:32,527 ERROR 26414 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: ctx.request.header.cookie.get is not a function
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:11:42)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 26414
+hostname: loveRain.local
+
+2018-04-16 17:15:32,711 ERROR 26414 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: ctx.request.header.cookie.get is not a function
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:11:42)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 26414
+hostname: loveRain.local
+
+2018-04-16 17:16:00,044 ERROR 26414 [-/127.0.0.1/-/3ms GET /] nodejs.TypeError: ctx.request.header.cookie.get is not a function
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:11:42)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 26414
+hostname: loveRain.local
+
+2018-04-16 17:16:00,644 ERROR 26414 [-/127.0.0.1/-/1ms GET /] nodejs.TypeError: ctx.request.header.cookie.get is not a function
+    at HomeController.index (/Users/chz/Desktop/credit/app/controller/home.js:11:42)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 26414
+hostname: loveRain.local
+
+2018-04-16 17:28:38,864 ERROR 26949 [-/127.0.0.1/-/17ms POST /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.ReferenceError: sendToWormhole is not defined
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:40:17)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 26949
+hostname: loveRain.local
+
+2018-04-16 17:29:39,715 ERROR 27044 [-/127.0.0.1/-/31ms POST /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.TypeError: Cannot read property 'put' of undefined
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:39:33)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 27044
+hostname: loveRain.local
+
+2018-04-16 17:30:49,233 ERROR 27080 [-/127.0.0.1/-/30ms POST /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.TypeError: Cannot read property 'put' of undefined
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:39:33)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 27080
+hostname: loveRain.local
+
+2018-04-16 17:35:19,773 ERROR 27196 [-/127.0.0.1/-/32ms POST /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.TypeError: Cannot read property 'put' of undefined
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:39:33)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 27196
+hostname: loveRain.local
+
+2018-04-16 17:35:29,278 ERROR 27196 [-/127.0.0.1/-/6ms POST /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.TypeError: Cannot read property 'put' of undefined
+    at HomeController.upload (/Users/chz/Desktop/credit/app/controller/home.js:39:33)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 27196
+hostname: loveRain.local
+
+2018-04-16 19:05:17,826 ERROR 29289 [-/127.0.0.1/-/30162ms POST /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.RequestError: socket hang up (req "error"), PUT http://credit.oss-cn-beijing-internal.aliyuncs.com/egg-multipart-test/test.jpeg -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Client.requestError (/Users/chz/Desktop/credit/node_modules/egg-oss/node_modules/ali-oss/lib/client.js:473:13)
+    at requestError.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at Client.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    at Client.toPromise (/Users/chz/Desktop/credit/node_modules/co/index.js:118:63)
+    at next (/Users/chz/Desktop/credit/node_modules/co/index.js:99:29)
+    at onRejected (/Users/chz/Desktop/credit/node_modules/co/index.js:85:7)
+name: 'RequestError'
+status: -1
+code: 'RequestError'
+pid: 29289
+hostname: loveRain.local
+
+2018-04-16 19:07:41,302 ERROR 29372 [-/127.0.0.1/-/30167ms POST /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.RequestError: socket hang up (req "error"), PUT http://credit.oss-cn-beijing-internal.aliyuncs.com/credit/test.jpeg -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Client.requestError (/Users/chz/Desktop/credit/node_modules/egg-oss/node_modules/ali-oss/lib/client.js:473:13)
+    at requestError.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at Client.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    at Client.toPromise (/Users/chz/Desktop/credit/node_modules/co/index.js:118:63)
+    at next (/Users/chz/Desktop/credit/node_modules/co/index.js:99:29)
+    at onRejected (/Users/chz/Desktop/credit/node_modules/co/index.js:85:7)
+name: 'RequestError'
+status: -1
+code: 'RequestError'
+pid: 29372
+hostname: loveRain.local
+
+2018-04-16 19:11:03,020 ERROR 29484 [-/127.0.0.1/-/30167ms POST /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.RequestError: socket hang up (req "error"), PUT http://credit.oss-cn-beijing-internal.aliyuncs.com/test.jpeg -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":1,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Client.requestError (/Users/chz/Desktop/credit/node_modules/egg-oss/node_modules/ali-oss/lib/client.js:473:13)
+    at requestError.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at Client.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    at Client.toPromise (/Users/chz/Desktop/credit/node_modules/co/index.js:118:63)
+    at next (/Users/chz/Desktop/credit/node_modules/co/index.js:99:29)
+    at onRejected (/Users/chz/Desktop/credit/node_modules/co/index.js:85:7)
+name: 'RequestError'
+status: -1
+code: 'RequestError'
+pid: 29484
+hostname: loveRain.local
+
+2018-04-16 19:14:52,301 ERROR 29587 [-/127.0.0.1/-/20042ms POST /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.ConnectionTimeoutError: Connect timeout for 20000ms, PUT http://credit.oss-cn-beijing-internal.aliyuncs.com/card/test.jpeg -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Client.requestError (/Users/chz/Desktop/credit/node_modules/egg-oss/node_modules/ali-oss/lib/client.js:473:13)
+    at requestError.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at Client.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    at Client.toPromise (/Users/chz/Desktop/credit/node_modules/co/index.js:118:63)
+    at next (/Users/chz/Desktop/credit/node_modules/co/index.js:99:29)
+    at onRejected (/Users/chz/Desktop/credit/node_modules/co/index.js:85:7)
+name: 'ConnectionTimeoutError'
+status: -2
+code: 'ConnectionTimeoutError'
+pid: 29587
+hostname: loveRain.local
+
+2018-04-16 19:27:04,574 ERROR 29880 [-/127.0.0.1/-/20053ms POST /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.ConnectionTimeoutError: Connect timeout for 20000ms, PUT http://credit.oss-cn-beijing-internal.aliyuncs.com/card/test.jpeg -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Client.requestError (/Users/chz/Desktop/credit/node_modules/egg-oss/node_modules/ali-oss/lib/client.js:473:13)
+    at requestError.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at Client.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    at Client.toPromise (/Users/chz/Desktop/credit/node_modules/co/index.js:118:63)
+    at next (/Users/chz/Desktop/credit/node_modules/co/index.js:99:29)
+    at onRejected (/Users/chz/Desktop/credit/node_modules/co/index.js:85:7)
+name: 'ConnectionTimeoutError'
+status: -2
+code: 'ConnectionTimeoutError'
+pid: 29880
+hostname: loveRain.local
+
+2018-04-16 19:29:19,316 ERROR 29958 [-/127.0.0.1/-/20046ms POST /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.ConnectionTimeoutError: Connect timeout for 20000ms, PUT http://credit.oss-cn-beijing-internal.aliyuncs.com/card/test.jpeg -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Client.requestError (/Users/chz/Desktop/credit/node_modules/egg-oss/node_modules/ali-oss/lib/client.js:473:13)
+    at requestError.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at Client.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    at Client.toPromise (/Users/chz/Desktop/credit/node_modules/co/index.js:118:63)
+    at next (/Users/chz/Desktop/credit/node_modules/co/index.js:99:29)
+    at onRejected (/Users/chz/Desktop/credit/node_modules/co/index.js:85:7)
+name: 'ConnectionTimeoutError'
+status: -2
+code: 'ConnectionTimeoutError'
+pid: 29958
+hostname: loveRain.local
+
