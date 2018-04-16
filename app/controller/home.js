@@ -43,6 +43,7 @@ class HomeController extends Controller {
         let result;
         try {
           result = await ctx.oss.put('card/' + part.filename, part);
+          ctx.body = result;
         } catch (err) {
           await sendToWormhole(part);
           throw err;

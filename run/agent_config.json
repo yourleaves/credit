@@ -163,11 +163,11 @@
       },
       "useAgent": false,
       "client": {
-        "accessKeyId": "your access key",
-        "accessKeySecret": "<String len: 18>",
-        "bucket": "your bucket name",
-        "endpoint": "oss-cn-hongkong.aliyun.com",
-        "timeout": "60s"
+        "accessKeyId": "LTAIe6V8YY6pYZ9r",
+        "accessKeySecret": "<String len: 30>",
+        "bucket": "lccredit",
+        "endpoint": "oss-cn-beijing.aliyuncs.com",
+        "timeout": "20s"
       }
     },
     "env": "local",
@@ -184,7 +184,6 @@
       "private": true,
       "dependencies": {
         "@alicloud/sms-sdk": "^1.0.9",
-        "ali-oss": "^5.1.0",
         "egg": "^2.2.1",
         "egg-mysql": "^3.0.0",
         "egg-oss": "^1.1.0",
@@ -503,6 +502,7 @@
     "oss": {
       "enable": true,
       "package": "egg-oss",
+      "useAgent": true,
       "name": "oss",
       "dependencies": [],
       "optionalDependencies": [],

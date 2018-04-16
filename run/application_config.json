@@ -180,7 +180,7 @@
         "host": "127.0.0.1",
         "port": "3306",
         "user": "root",
-        "password": "<String len: 0>",
+        "password": "<String len: 13>",
         "database": "credit"
       }
     },
@@ -199,9 +199,9 @@
       "client": {
         "accessKeyId": "LTAIe6V8YY6pYZ9r",
         "accessKeySecret": "<String len: 30>",
-        "bucket": "credit",
+        "bucket": "lccredit",
         "endpoint": "oss-cn-beijing-internal.aliyuncs.com",
-        "timeout": "20s"
+        "timeout": "60s"
       }
     },
     "env": "local",

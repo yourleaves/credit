@@ -779,3 +779,17 @@ message: 'Content-Type must be multipart/*'
 pid: 26949
 hostname: loveRain.local
 
+2018-04-16 19:34:00,770 WARN 30084 [-/127.0.0.1/-/356ms POST /upload?_csrf=-ZzslMl1UdIEKiEyaTRQHHIE] nodejs.AccessDeniedError: You have no right to access this object because of bucket acl.
+    at Client.requestError (/Users/chz/Desktop/credit/node_modules/egg-oss/node_modules/ali-oss/lib/client.js:516:15)
+    at requestError.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+name: 'AccessDeniedError'
+status: 403
+code: 'AccessDenied'
+requestId: '5AD48A28ECD3FD1BEE89B006'
+hostId: 'credit.oss-cn-beijing.aliyuncs.com'
+params: { object: 'card/test.jpeg', bucket: 'credit', method: 'PUT', subres: undefined, timeout: undefined, ctx: undefined, headers: { 'Transfer-Encoding': 'chunked' }, mime: undefined, stream: FileStream { _readableState: ReadableState { objectMode: false, highWaterMark: 16384, buffer: [Object], length: 0, pipes: null, pipesCount: 0, flowing: false, ended: true, endEmitted: true, reading: false, sync: true, needReadable: false, emittedReadable: false, readableListening: false, resumeScheduled: false, defaultEncoding: 'utf8', ranOut: false, awaitDrain: 0, readingMore: false, decoder: null, encoding: null }, readable: false, domain: null, _events: { end: [Object], error: [Object] }, _eventsCount: 2, _maxListeners: undefined, truncated: false, _read: [Function], fieldname: 'file', filename: 'test.jpeg', encoding: '7bit', transferEncoding: '7bit', mime: 'image/jpeg', mimeType: 'image/jpeg' }, successStatuses: [ 200 ] }
+pid: 30084
+hostname: loveRain.local
+

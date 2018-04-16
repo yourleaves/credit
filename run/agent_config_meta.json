@@ -181,7 +181,6 @@
     "private": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
     "dependencies": {
       "@alicloud/sms-sdk": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
-      "ali-oss": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
       "egg": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
       "egg-mysql": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
       "egg-oss": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",

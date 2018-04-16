@@ -8,7 +8,7 @@ module.exports = appInfo => {
             host: '127.0.0.1',
             port: '3306',
             user: 'root',
-            password: '',
+            password: 'youyoudai0123',
             database: 'credit',    
         },
         app: true,
@@ -18,9 +18,9 @@ module.exports = appInfo => {
         client: {
           accessKeyId: 'LTAIe6V8YY6pYZ9r',
           accessKeySecret: 'I5Xh7CbAVfndbLzCYBFpVyUSZL1lHW',
-          bucket: 'credit',
+          bucket: 'lccredit',
           endpoint: 'oss-cn-beijing-internal.aliyuncs.com',
-          timeout: '20s',
+          timeout: '60s',
         }
       }
   };
