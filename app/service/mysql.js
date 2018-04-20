@@ -80,6 +80,31 @@ module.exports = app => {
               }
          }
 
+         async changePassword(userid,oldpwd,newpwd){
+            const result = await app.mysql.select('cd_user', { where: { id: userid,key:oldpwd}}); 
+            if (result.length > 0){
+                const row = {
+                    key: newpwd
+                };
+                const options = {
+                    where: {
+                      id: userid,
+                    }
+                };
+                const updateR = await this.app.mysql.update('cd_user', row,options);
+                const updateSuccess = updateR.affectedRows === 1;
+                if (updateSuccess){
+                    return "OK";
+                }else{
+                    return "FAIL";
+                }
+            }else{
+                return "NOFIND";
+            }
+
+         }
+         
+
          async getUserScore(id) {
             const result = await app.mysql.select('cd_user_score', { // 搜索 post 表
                 where: { userid: id}, // WHERE 条件
@@ -109,6 +134,7 @@ module.exports = app => {
                 return "FAIL";
               }
          }
+
 
          async getAuthList(id) {
             const result = await app.mysql.select('cd_user_auth_list', { // 搜索 post 表
@@ -221,25 +247,28 @@ module.exports = app => {
          
          async commitInfo(id,request_params){
             var keyValues = request_params;
-            var type = request_params["type"];
+            var rtype = request_params["type"];
             delete keyValues.interface;
-            if (isGoReview(type)){
+            if (isGoReview(rtype)){
                 keyValues["review"] = "1";
             }else{
                 keyValues["review"] = "0";
             }
-            const result = await app.mysql.select('cd_admin_review', { where: { userid: id}}); 
+            keyValues["type"] = rtype.slice(0,1)
+            const result = await app.mysql.select('cd_admin_review', { where: { userid: id,type:keyValues["type"],review:"0"}}); 
             if (result.length > 0){
                 const row = keyValues;
                   const options = {
                     where: {
-                        userid: id
+                        userid: id,
+                        type:keyValues["type"],
+                        review:"0",
                     }
                   };
                 const result = await this.app.mysql.update('cd_admin_review', row,options);
                 const updateSuccess = result.affectedRows === 1;
                 if (updateSuccess){
-                  return "OK";
+                    return "OK";
                 }else{
                   return "FAIL";
                 }
@@ -252,6 +281,7 @@ module.exports = app => {
                     return "FAIL";
                 }
             }      
+
 
             function isGoReview(value){
                 let arr = ["1_2","2_2","3","4","5","6"];
@@ -287,41 +317,83 @@ module.exports = app => {
                 }
 
             }else{
-                const result = await app.mysql.insert('cd_user_auth_list', getAllObj(type));
+                var allObj = getAllObj(type);
+                allObj["userid"] = id;
+                const result = await app.mysql.insert('cd_user_auth_list', allObj);
                 if(result.serverStatus == 2){
                     return "OK";
-                }else{
+                }else{ 
                     return "FAIL";
                 }
             }
 
             function getCurrentObj(type){
                 let obj = {"1_1":"card","1_2":"card","2_1":"contact","2_2":"contact","3":"phone","4":"alipay","5":"taobao","6":"email"};
+                let objValue = {"1_1":"0","1_2":"1","2_1":"0","2_2":"1","3":"1","4":"1","5":"1","6":"1"};
                 let key = obj[type];
-                return {key:type};
+                let value = objValue[type];
+                var updateKV = {};
+                updateKV[key] = value;
+                return updateKV;
             }
 
             function getAllObj(type){
-                let obj = {"1_1":"card","1_2":"card","2_1":"contact","2_2":"contact","3":"phone","4":"alipay","5":"taobao","6":"email"};
-                let key = obj[type];
-                let obj2 = {"card":"0","contact":"0","phone":"0","alipay":"0","taobao":"0","email":"0"};
-                obj2[key] = type;
-                return obj2;
+                let objkey = {"1_1":"card","1_2":"card","2_1":"contact","2_2":"contact","3":"phone","4":"alipay","5":"taobao","6":"email"};
+                let objValue = {"1_1":"0","1_2":"1","2_1":"0","2_2":"1","3":"1","4":"1","5":"1","6":"1"};
+                let objDefault = {"card":"0","contact":"0","phone":"0","alipay":"0","taobao":"0","email":"0"};
+                let key = objkey[type];
+                objDefault[key] = objValue[type];
+                return objDefault;
             }
         }
 
-        async getOrderList(id) {
+        async getOrderList(id,offset) {
             const result = await app.mysql.select('cd_user_order', { // 搜索 post 表
                 where: { userid: id}, // WHERE 条件
                 orders: [['id','desc']], // 排序方式
-                columns: ['no','time','status','money','times','deadline','total'], // 要查询的表字段
-                offset: 0, // 数据偏移量
+                columns: ['id','no','time','status','money','days','times','deadline','total'], // 要查询的表字段
+                limit: 10, // 返回数据量
+                offset: offset * 10, // 数据偏移量
               });
               if (result.length > 0){
                 return result;
               }else{
                 return "FAIL";
               }
+        }
+
+        async getOrderDetail(orderid) {
+            const result = await app.mysql.select('cd_user_order', { // 搜索 post 表
+                where: { id: orderid}, // WHERE 条件
+                orders: [['id','desc']], // 排序方式
+                columns: ['no','time','status','money','days','times','deadline','total'], // 要查询的表字段
+                limit: 1, // 返回数据量
+                offset:0, // 数据偏移量
+              });
+              if (result.length > 0){
+                return result[0];
+              }else{
+                return "FAIL";
+              }
+        }
+
+        async addUserOrder(noid,id,addTime,s,m,ts,dl,tl,ds) {
+
+            const row = {limit: "0",time: "0",pay: "0"};
+            const options = {where: {userid: id}};
+            const result = await this.app.mysql.update('cd_user_limit', row,options);
+            const updateSuccess = result.affectedRows === 1;
+            if (updateSuccess){
+                    const resultO = await app.mysql.insert('cd_user_order', { no: noid,days:ds,userid:id,time:addTime,status:s,money:m,times:ts,deadline:dl,total:tl});
+                    if(resultO.serverStatus == 2){
+                        return "OK";
+                    }else{
+                        return "FAIL";
+                    }
+            }else{
+                return "FAIL";
+            }
+        
         }
 
 

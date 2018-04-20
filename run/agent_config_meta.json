@@ -34,19 +34,9 @@
     "defaultExtension": "/Users/chz/Desktop/credit/node_modules/egg-view/config/config.default.js",
     "mapping": "/Users/chz/Desktop/credit/node_modules/egg-view/config/config.default.js"
   },
-  "keys": "/Users/chz/Desktop/credit/config/config.default.js",
-  "middleware": "/Users/chz/Desktop/credit/config/config.default.js",
-  "session": {
-    "maxAge": "/Users/chz/Desktop/credit/node_modules/egg-session/config/config.default.js",
-    "key": "/Users/chz/Desktop/credit/node_modules/egg-session/config/config.default.js",
-    "httpOnly": "/Users/chz/Desktop/credit/node_modules/egg-session/config/config.default.js",
-    "encrypt": "/Users/chz/Desktop/credit/node_modules/egg-session/config/config.default.js"
-  },
   "security": {
-    "domainWhiteList": "/Users/chz/Desktop/credit/node_modules/egg-security/config/config.default.js",
-    "protocolWhiteList": "/Users/chz/Desktop/credit/node_modules/egg-security/config/config.default.js",
-    "defaultMiddleware": "/Users/chz/Desktop/credit/node_modules/egg-security/config/config.default.js",
     "csrf": {
+      "ignore": "/Users/chz/Desktop/credit/config/config.default.js",
       "enable": "/Users/chz/Desktop/credit/node_modules/egg-security/config/config.default.js",
       "useSession": "/Users/chz/Desktop/credit/node_modules/egg-security/config/config.default.js",
       "ignoreJSON": "/Users/chz/Desktop/credit/node_modules/egg-security/config/config.default.js",
@@ -56,6 +46,9 @@
       "bodyName": "/Users/chz/Desktop/credit/node_modules/egg-security/config/config.default.js",
       "queryName": "/Users/chz/Desktop/credit/node_modules/egg-security/config/config.default.js"
     },
+    "domainWhiteList": "/Users/chz/Desktop/credit/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/chz/Desktop/credit/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/chz/Desktop/credit/node_modules/egg-security/config/config.default.js",
     "xframe": {
       "enable": "/Users/chz/Desktop/credit/node_modules/egg-security/config/config.default.js",
       "value": "/Users/chz/Desktop/credit/node_modules/egg-security/config/config.default.js"
@@ -93,6 +86,15 @@
       "ipBlackList": "/Users/chz/Desktop/credit/node_modules/egg-security/config/config.default.js",
       "checkAddress": "/Users/chz/Desktop/credit/node_modules/egg-security/config/config.default.js"
     }
+  },
+  "keys": "/Users/chz/Desktop/credit/config/config.default.js",
+  "middleware": "/Users/chz/Desktop/credit/config/config.default.js",
+  "cors": "/Users/chz/Desktop/credit/config/config.default.js",
+  "session": {
+    "maxAge": "/Users/chz/Desktop/credit/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/chz/Desktop/credit/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/chz/Desktop/credit/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/chz/Desktop/credit/node_modules/egg-session/config/config.default.js"
   },
   "helper": {
     "shtml": "/Users/chz/Desktop/credit/node_modules/egg-security/config/config.default.js"

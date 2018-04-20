@@ -89,6 +89,7 @@
   },
   "keys": "/Users/chz/Desktop/credit/config/config.default.js",
   "middleware": "/Users/chz/Desktop/credit/config/config.default.js",
+  "cors": "/Users/chz/Desktop/credit/config/config.default.js",
   "session": {
     "maxAge": "/Users/chz/Desktop/credit/node_modules/egg-session/config/config.default.js",
     "key": "/Users/chz/Desktop/credit/node_modules/egg-session/config/config.default.js",

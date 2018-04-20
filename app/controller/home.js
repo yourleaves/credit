@@ -2,6 +2,7 @@
 const path = require('path');
 const sendToWormhole = require('stream-wormhole');
 const Controller = require('egg').Controller;
+const fs = require('fs');
 
 class HomeController extends Controller {
   async index() {
@@ -9,6 +10,14 @@ class HomeController extends Controller {
     const data = { name: 'egg' };
     // render a template, path relate to `app/view`
     await ctx.render('home.nj');
+  }
+
+  async download() {
+
+    const filePath = path.resolve(this.app.config.static.dir, 'youyoudai.apk');
+    this.ctx.attachment('youyoudai.apk');
+    this.ctx.set('Content-Type', 'application/octet-stream');
+    this.ctx.body = fs.createReadStream(filePath);
   }
 
    async upload() {
@@ -45,7 +54,6 @@ class HomeController extends Controller {
         console.log(result);
       }
     }
-    
     console.log('and we are done parsing the form!');
   }
   

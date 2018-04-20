@@ -18,7 +18,8 @@
         "sessionName": "csrfToken",
         "headerName": "x-csrf-token",
         "bodyName": "_csrf",
-        "queryName": "_csrf"
+        "queryName": "_csrf",
+        "ignore": "/api"
       },
       "xframe": {
         "enable": true,
@@ -319,6 +320,7 @@
       "responseTimeout": 60000
     },
     "middleware": [],
+    "cors": {},
     "coreMiddlewares": [
       "meta",
       "siteFile",

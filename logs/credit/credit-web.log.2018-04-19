@@ -1,0 +1,365 @@
+2018-04-19 16:54:03,963 WARN 28015 [-/127.0.0.1/-/10ms POST /upload2] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 16:54:03,971 WARN 28015 [-/127.0.0.1/-/18ms POST /upload2] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28015
+hostname: loveRain.local
+
+2018-04-19 16:54:09,353 WARN 28015 [-/127.0.0.1/-/1ms POST /upload2] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 16:54:09,354 WARN 28015 [-/127.0.0.1/-/2ms POST /upload2] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28015
+hostname: loveRain.local
+
+2018-04-19 16:54:11,676 WARN 28015 [-/127.0.0.1/-/1ms POST /upload2] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 16:54:11,677 WARN 28015 [-/127.0.0.1/-/2ms POST /upload2] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28015
+hostname: loveRain.local
+
+2018-04-19 16:54:59,684 WARN 28015 [-/127.0.0.1/-/1ms POST /upload2] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 16:54:59,684 WARN 28015 [-/127.0.0.1/-/1ms POST /upload2] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28015
+hostname: loveRain.local
+
+2018-04-19 16:55:03,677 WARN 28015 [-/127.0.0.1/-/1ms POST /upload2] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 16:55:03,678 WARN 28015 [-/127.0.0.1/-/2ms POST /upload2] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28015
+hostname: loveRain.local
+
+2018-04-19 16:55:11,506 WARN 28015 [-/127.0.0.1/-/2ms POST /%EF%BC%8Fapi/upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 16:55:11,507 WARN 28015 [-/127.0.0.1/-/3ms POST /%EF%BC%8Fapi/upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28015
+hostname: loveRain.local
+
+2018-04-19 16:55:29,218 WARN 28015 [-/127.0.0.1/-/1ms POST /%EF%BC%8Fapi/upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 16:55:29,219 WARN 28015 [-/127.0.0.1/-/2ms POST /%EF%BC%8Fapi/upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28015
+hostname: loveRain.local
+
+2018-04-19 16:57:41,556 WARN 28015 [-/127.0.0.1/-/1ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 16:57:41,558 WARN 28015 [-/127.0.0.1/-/3ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28015
+hostname: loveRain.local
+
+2018-04-19 16:57:49,425 WARN 28015 [-/127.0.0.1/-/1ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 16:57:49,425 WARN 28015 [-/127.0.0.1/-/1ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28015
+hostname: loveRain.local
+
+2018-04-19 16:57:51,349 WARN 28015 [-/127.0.0.1/-/1ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 16:57:51,349 WARN 28015 [-/127.0.0.1/-/1ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28015
+hostname: loveRain.local
+
+2018-04-19 17:01:22,695 WARN 28523 [-/127.0.0.1/-/3ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 17:01:22,699 WARN 28523 [-/127.0.0.1/-/6ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28523
+hostname: loveRain.local
+
+2018-04-19 17:03:02,652 WARN 28591 [-/127.0.0.1/-/5ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 17:03:02,656 WARN 28591 [-/127.0.0.1/-/8ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28591
+hostname: loveRain.local
+
+2018-04-19 17:04:25,197 WARN 28591 [-/127.0.0.1/-/1ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 17:04:25,198 WARN 28591 [-/127.0.0.1/-/2ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28591
+hostname: loveRain.local
+
+2018-04-19 17:04:35,209 WARN 28591 [-/127.0.0.1/-/0ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 17:04:35,210 WARN 28591 [-/127.0.0.1/-/1ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28591
+hostname: loveRain.local
+
+2018-04-19 17:04:59,264 WARN 28591 [-/127.0.0.1/-/0ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 17:04:59,264 WARN 28591 [-/127.0.0.1/-/1ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28591
+hostname: loveRain.local
+
+2018-04-19 17:05:37,206 WARN 28591 [-/127.0.0.1/-/0ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 17:05:37,207 WARN 28591 [-/127.0.0.1/-/1ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28591
+hostname: loveRain.local
+
+2018-04-19 17:05:38,432 WARN 28591 [-/127.0.0.1/-/2ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 17:05:38,433 WARN 28591 [-/127.0.0.1/-/3ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28591
+hostname: loveRain.local
+
+2018-04-19 17:06:58,208 WARN 28742 [-/127.0.0.1/-/6ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 17:06:58,214 WARN 28742 [-/127.0.0.1/-/12ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28742
+hostname: loveRain.local
+
+2018-04-19 17:07:38,416 WARN 28742 [-/127.0.0.1/-/1ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 17:07:38,417 WARN 28742 [-/127.0.0.1/-/1ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28742
+hostname: loveRain.local
+
+2018-04-19 17:11:55,809 WARN 28834 [-/127.0.0.1/-/10ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-04-19 17:11:55,815 WARN 28834 [-/127.0.0.1/-/16ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.assertCsrf (/Users/chz/Desktop/credit/node_modules/egg-security/app/extend/context.js:149:17)
+    at csrf (/Users/chz/Desktop/credit/node_modules/egg-security/lib/middlewares/csrf.js:31:9)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+    at session (/Users/chz/Desktop/credit/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:42:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-compose/index.js:43:18)
+message: 'invalid csrf token'
+pid: 28834
+hostname: loveRain.local
+
+2018-04-19 22:49:35,356 WARN 39672 [-/192.168.10.158/-/10ms POST /api] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at ApiController.commitImage (/Users/chz/Desktop/credit/app/controller/api.js:330:23)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+message: 'Content-Type must be multipart/*'
+pid: 39672
+hostname: loveRain.local
+
+2018-04-19 22:50:08,522 WARN 39672 [-/192.168.10.158/-/5ms POST /api] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at ApiController.commitImage (/Users/chz/Desktop/credit/app/controller/api.js:330:23)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+message: 'Content-Type must be multipart/*'
+pid: 39672
+hostname: loveRain.local
+
+2018-04-19 22:51:09,564 WARN 39672 [-/192.168.10.158/-/15ms POST /api] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at ApiController.commitImage (/Users/chz/Desktop/credit/app/controller/api.js:330:23)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+message: 'Content-Type must be multipart/*'
+pid: 39672
+hostname: loveRain.local
+
+2018-04-19 22:52:50,123 WARN 39672 [-/192.168.10.158/-/8ms POST /api] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at ApiController.commitImage (/Users/chz/Desktop/credit/app/controller/api.js:330:23)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+message: 'Content-Type must be multipart/*'
+pid: 39672
+hostname: loveRain.local
+
+2018-04-19 22:53:21,490 WARN 39672 [-/192.168.10.158/-/18ms POST /api] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (/Users/chz/Desktop/credit/node_modules/koa/lib/context.js:93:11)
+    at Object.multipart (/Users/chz/Desktop/credit/node_modules/egg-multipart/app/extend/context.js:15:17)
+    at ApiController.commitImage (/Users/chz/Desktop/credit/app/controller/api.js:330:23)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+message: 'Content-Type must be multipart/*'
+pid: 39672
+hostname: loveRain.local
+

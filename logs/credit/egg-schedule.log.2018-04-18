@@ -1,0 +1,12 @@
+2018-04-18 18:14:48,576 INFO 15778 [Timer] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-04-19 00:00:00.000
+2018-04-18 18:14:48,577 INFO 15778 [Timer] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-04-19 00:00:01.000
+2018-04-19 15:08:54,583 INFO 15778 [152412173457258296759226969] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js triggered, send random by agent
+2018-04-19 15:08:54,711 INFO 15778 [Timer] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute at 2018-04-20 00:00:00.000
+2018-04-19 15:08:54,615 INFO 24502 [152412173457258296759226969] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js task received by app
+2018-04-19 15:08:54,651 INFO 24502 [152412173457258296759226969] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2018-04-19 15:08:54,707 INFO 24502 [152412173457258296759226969] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 54ms
+2018-04-19 15:08:55,560 INFO 24502 [152412173555958297741324060] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js task received by app
+2018-04-19 15:08:55,560 INFO 24502 [152412173555958297741324060] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2018-04-19 15:08:55,577 INFO 24502 [152412173555958297741324060] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 16ms
+2018-04-19 15:08:55,559 INFO 15778 [152412173555958297741324060] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js triggered, send random by agent
+2018-04-19 15:08:55,565 INFO 15778 [Timer] /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute at 2018-04-20 00:00:01.000

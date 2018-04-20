@@ -1,4 +1,5 @@
-<form method="POST" action="/upload2" enctype="multipart/form-data">
+<form method="POST" action="/api" enctype="multipart/form-data">
+  interface:uploadImage
   title: <input name="title" />             
   file: <input name="file" type="file" />
   file: <input name="file" type="file" />

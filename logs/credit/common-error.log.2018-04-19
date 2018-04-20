@@ -1,0 +1,650 @@
+2018-04-19 15:22:07,486 ERROR 24502 [-/192.168.10.158/-/30ms POST /api] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'key' in 'field list'
+    at Query.Sequence._packetToError (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/chz/Desktop/credit/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:563:20)
+    --------------------
+    at Pool.query (/Users/chz/Desktop/credit/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    sql: UPDATE `cd_user_auth_list` SET `key` = 'contact' WHERE `userid` = 2
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlMessage: 'Unknown column \'key\' in \'field list\''
+sqlState: '42S22'
+index: 0
+sql: 'UPDATE `cd_user_auth_list` SET `key` = \'contact\' WHERE `userid` = 2'
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 24502
+hostname: loveRain.local
+
+2018-04-19 15:47:26,353 ERROR 25949 [-/192.168.10.158/-/380ms POST /api] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'key' in 'field list'
+    at Query.Sequence._packetToError (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/chz/Desktop/credit/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:563:20)
+    --------------------
+    at Pool.query (/Users/chz/Desktop/credit/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    sql: UPDATE `cd_user_auth_list` SET `key` = 'contact' WHERE `userid` = 2
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlMessage: 'Unknown column \'key\' in \'field list\''
+sqlState: '42S22'
+index: 0
+sql: 'UPDATE `cd_user_auth_list` SET `key` = \'contact\' WHERE `userid` = 2'
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 25949
+hostname: loveRain.local
+
+2018-04-19 15:52:46,757 ERROR 25949 [-/192.168.10.158/-/36ms POST /api] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'key' in 'field list'
+    at Query.Sequence._packetToError (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/chz/Desktop/credit/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:563:20)
+    --------------------
+    at Pool.query (/Users/chz/Desktop/credit/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    sql: UPDATE `cd_user_auth_list` SET `key` = 'contact' WHERE `userid` = 2
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlMessage: 'Unknown column \'key\' in \'field list\''
+sqlState: '42S22'
+index: 0
+sql: 'UPDATE `cd_user_auth_list` SET `key` = \'contact\' WHERE `userid` = 2'
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 25949
+hostname: loveRain.local
+
+2018-04-19 16:02:31,764 ERROR 25949 [-/192.168.10.158/-/30ms POST /api] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'key' in 'field list'
+    at Query.Sequence._packetToError (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/chz/Desktop/credit/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    at TCP.onread (net.js:563:20)
+    --------------------
+    at Pool.query (/Users/chz/Desktop/credit/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    sql: UPDATE `cd_user_auth_list` SET `key` = 'contact' WHERE `userid` = 2
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlMessage: 'Unknown column \'key\' in \'field list\''
+sqlState: '42S22'
+index: 0
+sql: 'UPDATE `cd_user_auth_list` SET `key` = \'contact\' WHERE `userid` = 2'
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 25949
+hostname: loveRain.local
+
+2018-04-19 16:14:10,761 ERROR 27007 [-/192.168.10.158/-/30ms POST /api] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'key' in 'field list'
+    at Query.Sequence._packetToError (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/chz/Desktop/credit/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/chz/Desktop/credit/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    sql: UPDATE `cd_user_auth_list` SET `key` = '0' WHERE `userid` = 2
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlMessage: 'Unknown column \'key\' in \'field list\''
+sqlState: '42S22'
+index: 0
+sql: 'UPDATE `cd_user_auth_list` SET `key` = \'0\' WHERE `userid` = 2'
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 27007
+hostname: loveRain.local
+
+2018-04-19 16:18:04,041 ERROR 27007 [-/192.168.10.158/-/35ms POST /api] nodejs.ER_BAD_FIELD_ERRORError: ER_BAD_FIELD_ERROR: Unknown column 'key' in 'field list'
+    at Query.Sequence._packetToError (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/chz/Desktop/credit/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/chz/Desktop/credit/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    sql: UPDATE `cd_user_auth_list` SET `key` = '0' WHERE `userid` = 2
+code: 'ER_BAD_FIELD_ERROR'
+errno: 1054
+sqlMessage: 'Unknown column \'key\' in \'field list\''
+sqlState: '42S22'
+index: 0
+sql: 'UPDATE `cd_user_auth_list` SET `key` = \'0\' WHERE `userid` = 2'
+name: 'ER_BAD_FIELD_ERRORError'
+pid: 27007
+hostname: loveRain.local
+
+2018-04-19 16:58:49,133 ERROR 28382 A client (::ffff:127.0.0.1:54416) error [HPE_INVALID_EOF_STATE] occurred: Parse Error
+2018-04-19 17:29:42,742 ERROR 29594 [-/192.168.10.158/-/22ms POST /api] nodejs.ReferenceError: ctx is not defined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:15:5)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 29594
+hostname: loveRain.local
+
+2018-04-19 17:30:18,955 ERROR 29665 [-/192.168.10.158/-/13ms POST /api] nodejs.ReferenceError: ctx is not defined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:15:5)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 29665
+hostname: loveRain.local
+
+2018-04-19 17:30:33,625 ERROR 29693 [-/192.168.10.158/-/14ms POST /api] nodejs.ReferenceError: ctx is not defined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:15:5)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 29693
+hostname: loveRain.local
+
+2018-04-19 17:32:05,030 ERROR 29775 [-/192.168.10.158/-/12ms POST /api] nodejs.ReferenceError: ctx is not defined
+    at ApiController.index (/Users/chz/Desktop/credit/app/controller/api.js:15:5)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 29775
+hostname: loveRain.local
+
+2018-04-19 17:37:31,801 ERROR 30119 [-/192.168.10.158/-/13ms POST /api/upload] nodejs.ReferenceError: ctx is not defined
+    at ApiController.upload (/Users/chz/Desktop/credit/app/controller/api.js:382:45)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 30119
+hostname: loveRain.local
+
+2018-04-19 17:37:39,864 ERROR 30119 [-/192.168.10.158/-/3ms POST /api/upload] nodejs.ReferenceError: ctx is not defined
+    at ApiController.upload (/Users/chz/Desktop/credit/app/controller/api.js:382:45)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 30119
+hostname: loveRain.local
+
+2018-04-19 17:45:29,085 ERROR 30477 [-/192.168.10.158/-/3ms POST /api/upload] nodejs.ReferenceError: ctx is not defined
+    at ApiController.upload (/Users/chz/Desktop/credit/app/controller/api.js:320:45)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at Object.classControllerMiddleware (/Users/chz/Desktop/credit/node_modules/egg-core/lib/loader/mixin/controller.js:84:20)
+    at Object.callFn (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/index.js:36:21)
+    at wrappedController (/Users/chz/Desktop/credit/node_modules/egg-core/lib/utils/router.js:322:18)
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/chz/Desktop/credit/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+
+pid: 30477
+hostname: loveRain.local
+
+2018-04-19 18:16:37,815 ERROR 31690 [-/192.168.10.158/-/4202ms POST /api] nodejs.TypeError: Cannot read property 'slice' of undefined
+    at mysql.commitInfo (/Users/chz/Desktop/credit/app/service/mysql.js:231:37)
+    at ApiController.commitImage (/Users/chz/Desktop/credit/app/controller/api.js:374:50)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 31690
+hostname: loveRain.local
+
+2018-04-19 18:16:37,927 ERROR 31690 [-/192.168.10.158/-/2061ms POST /api] nodejs.TypeError: Cannot read property 'slice' of undefined
+    at mysql.commitInfo (/Users/chz/Desktop/credit/app/service/mysql.js:231:37)
+    at ApiController.commitImage (/Users/chz/Desktop/credit/app/controller/api.js:374:50)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 31690
+hostname: loveRain.local
+
+2018-04-19 18:17:45,338 ERROR 31772 [-/192.168.10.158/-/659ms POST /api] nodejs.TypeError: Cannot read property 'slice' of undefined
+    at mysql.commitInfo (/Users/chz/Desktop/credit/app/service/mysql.js:231:37)
+    at ApiController.commitImage (/Users/chz/Desktop/credit/app/controller/api.js:374:50)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 31772
+hostname: loveRain.local
+
+2018-04-19 18:20:31,959 ERROR 31772 [-/192.168.10.158/-/979ms POST /api] nodejs.TypeError: Cannot read property 'slice' of undefined
+    at mysql.commitInfo (/Users/chz/Desktop/credit/app/service/mysql.js:231:37)
+    at ApiController.commitImage (/Users/chz/Desktop/credit/app/controller/api.js:374:50)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 31772
+hostname: loveRain.local
+
+2018-04-19 18:23:06,597 ERROR 31921 [-/192.168.10.158/-/3882ms POST /api] nodejs.TypeError: Cannot read property 'slice' of undefined
+    at mysql.commitInfo (/Users/chz/Desktop/credit/app/service/mysql.js:231:37)
+    at ApiController.commitImage (/Users/chz/Desktop/credit/app/controller/api.js:380:50)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 31921
+hostname: loveRain.local
+
+2018-04-19 18:23:07,193 ERROR 31921 [-/192.168.10.158/-/2833ms POST /api] nodejs.TypeError: Cannot read property 'slice' of undefined
+    at mysql.commitInfo (/Users/chz/Desktop/credit/app/service/mysql.js:231:37)
+    at ApiController.commitImage (/Users/chz/Desktop/credit/app/controller/api.js:380:50)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 31921
+hostname: loveRain.local
+
+2018-04-19 18:23:07,494 ERROR 31921 [-/192.168.10.158/-/1842ms POST /api] nodejs.TypeError: Cannot read property 'slice' of undefined
+    at mysql.commitInfo (/Users/chz/Desktop/credit/app/service/mysql.js:231:37)
+    at ApiController.commitImage (/Users/chz/Desktop/credit/app/controller/api.js:380:50)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 31921
+hostname: loveRain.local
+
+2018-04-19 18:23:07,733 ERROR 31921 [-/192.168.10.158/-/1521ms POST /api] nodejs.TypeError: Cannot read property 'slice' of undefined
+    at mysql.commitInfo (/Users/chz/Desktop/credit/app/service/mysql.js:231:37)
+    at ApiController.commitImage (/Users/chz/Desktop/credit/app/controller/api.js:380:50)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 31921
+hostname: loveRain.local
+
+2018-04-19 18:25:06,244 ERROR 32054 [-/192.168.10.158/-/583ms POST /api] nodejs.TypeError: Cannot read property 'slice' of undefined
+    at mysql.commitInfo (/Users/chz/Desktop/credit/app/service/mysql.js:231:37)
+    at ApiController.commitImage (/Users/chz/Desktop/credit/app/controller/api.js:381:50)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 32054
+hostname: loveRain.local
+
+2018-04-19 18:25:32,014 ERROR 32147 [-/192.168.10.158/-/980ms POST /api] nodejs.TypeError: Cannot read property 'slice' of undefined
+    at mysql.commitInfo (/Users/chz/Desktop/credit/app/service/mysql.js:231:37)
+    at ApiController.commitImage (/Users/chz/Desktop/credit/app/controller/api.js:381:50)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 32147
+hostname: loveRain.local
+
+2018-04-19 18:25:46,440 ERROR 32147 [-/192.168.10.158/-/1490ms POST /api] nodejs.TypeError: Cannot read property 'slice' of undefined
+    at mysql.commitInfo (/Users/chz/Desktop/credit/app/service/mysql.js:231:37)
+    at ApiController.commitImage (/Users/chz/Desktop/credit/app/controller/api.js:381:50)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 32147
+hostname: loveRain.local
+
+2018-04-19 18:26:42,192 ERROR 32219 [-/192.168.10.158/-/721ms POST /api] nodejs.ER_DATA_TOO_LONGError: ER_DATA_TOO_LONG: Data too long for column 'image1' at row 1
+    at Query.Sequence._packetToError (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/chz/Desktop/credit/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/chz/Desktop/credit/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `cd_admin_review`(`image1`, `image2`, `type`, `review`, `userid`) VALUES('http://lccredit.oss-cn-beijing.aliyuncs.com/card/1524133503499.jpg', 'http://lccredit.oss-cn-beijing.aliyuncs.com/card/1524133507021.jpg', '1', '0', 2)
+code: 'ER_DATA_TOO_LONG'
+errno: 1406
+sqlMessage: 'Data too long for column \'image1\' at row 1'
+sqlState: '22001'
+index: 0
+sql: 'INSERT INTO `cd_admin_review`(`image1`, `image2`, `type`, `review`, `userid`) VALUES(\'http://lccredit.oss-cn-beijing.aliyuncs.com/card/1524133503499.jpg\', \'http://lccredit.oss-cn-beijing.aliyuncs.com/card/1524133507021.jpg\', \'1\', \'0\', 2)'
+name: 'ER_DATA_TOO_LONGError'
+pid: 32219
+hostname: loveRain.local
+
+2018-04-19 18:26:51,287 ERROR 32238 [-/192.168.10.158/-/596ms POST /api] nodejs.ER_DATA_TOO_LONGError: ER_DATA_TOO_LONG: Data too long for column 'image1' at row 1
+    at Query.Sequence._packetToError (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/chz/Desktop/credit/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/chz/Desktop/credit/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `cd_admin_review`(`image1`, `image2`, `type`, `review`, `userid`) VALUES('http://lccredit.oss-cn-beijing.aliyuncs.com/card/1524133503499.jpg', 'http://lccredit.oss-cn-beijing.aliyuncs.com/card/1524133507021.jpg', '1', '0', 2)
+code: 'ER_DATA_TOO_LONG'
+errno: 1406
+sqlMessage: 'Data too long for column \'image1\' at row 1'
+sqlState: '22001'
+index: 0
+sql: 'INSERT INTO `cd_admin_review`(`image1`, `image2`, `type`, `review`, `userid`) VALUES(\'http://lccredit.oss-cn-beijing.aliyuncs.com/card/1524133503499.jpg\', \'http://lccredit.oss-cn-beijing.aliyuncs.com/card/1524133507021.jpg\', \'1\', \'0\', 2)'
+name: 'ER_DATA_TOO_LONGError'
+pid: 32238
+hostname: loveRain.local
+
+2018-04-19 18:27:33,130 ERROR 32291 [-/192.168.10.158/-/663ms POST /api] nodejs.ER_DATA_TOO_LONGError: ER_DATA_TOO_LONG: Data too long for column 'image1' at row 1
+    at Query.Sequence._packetToError (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/chz/Desktop/credit/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/chz/Desktop/credit/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `cd_admin_review`(`image1`, `image2`, `type`, `review`, `userid`) VALUES('http://lccredit.oss-cn-beijing.aliyuncs.com/card/1524133503499.jpg', 'http://lccredit.oss-cn-beijing.aliyuncs.com/card/1524133507021.jpg', '1', '0', 2)
+code: 'ER_DATA_TOO_LONG'
+errno: 1406
+sqlMessage: 'Data too long for column \'image1\' at row 1'
+sqlState: '22001'
+index: 0
+sql: 'INSERT INTO `cd_admin_review`(`image1`, `image2`, `type`, `review`, `userid`) VALUES(\'http://lccredit.oss-cn-beijing.aliyuncs.com/card/1524133503499.jpg\', \'http://lccredit.oss-cn-beijing.aliyuncs.com/card/1524133507021.jpg\', \'1\', \'0\', 2)'
+name: 'ER_DATA_TOO_LONGError'
+pid: 32291
+hostname: loveRain.local
+
+2018-04-19 18:31:02,912 ERROR 32403 [-/192.168.10.158/-/722ms POST /api] nodejs.ER_DATA_TOO_LONGError: ER_DATA_TOO_LONG: Data too long for column 'image1' at row 1
+    at Query.Sequence._packetToError (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/chz/Desktop/credit/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/chz/Desktop/credit/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    sql: INSERT INTO `cd_admin_review`(`image1`, `image2`, `type`, `review`, `userid`) VALUES('http://lccredit.oss-cn-beijing.aliyuncs.com/card/1524133860098.jpg', 'http://lccredit.oss-cn-beijing.aliyuncs.com/card/1524133863553.jpg', '1', '0', 2)
+code: 'ER_DATA_TOO_LONG'
+errno: 1406
+sqlMessage: 'Data too long for column \'image1\' at row 1'
+sqlState: '22001'
+index: 0
+sql: 'INSERT INTO `cd_admin_review`(`image1`, `image2`, `type`, `review`, `userid`) VALUES(\'http://lccredit.oss-cn-beijing.aliyuncs.com/card/1524133860098.jpg\', \'http://lccredit.oss-cn-beijing.aliyuncs.com/card/1524133863553.jpg\', \'1\', \'0\', 2)'
+name: 'ER_DATA_TOO_LONGError'
+pid: 32403
+hostname: loveRain.local
+
+2018-04-19 18:37:59,020 ERROR 32565 [-/192.168.10.158/-/1888ms POST /api] nodejs.ReferenceError: result is not defined
+    at ApiController.commitImage (/Users/chz/Desktop/credit/app/controller/api.js:387:11)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 32565
+hostname: loveRain.local
+
+2018-04-19 18:38:53,451 ERROR 32565 [-/192.168.10.158/-/1086ms POST /api] nodejs.ReferenceError: result is not defined
+    at ApiController.commitImage (/Users/chz/Desktop/credit/app/controller/api.js:387:11)
+    at process._tickCallback (internal/process/next_tick.js:109:7)
+
+pid: 32565
+hostname: loveRain.local
+
+2018-04-19 19:18:54,929 ERROR 30961 nodejs.ClusterClientNoResponseError: client no response in 63783ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/chz/Desktop/credit/node_modules/cluster-client/lib/leader.js:74:23)
+    at ontimeout (timers.js:380:14)
+    at tryOnTimeout (timers.js:244:5)
+    at Timer.listOnTimeout (timers.js:214:5)
+name: 'ClusterClientNoResponseError'
+pid: 30961
+hostname: loveRain.local
+
+2018-04-19 22:54:15,207 ERROR 39809 [-/192.168.10.158/-/99ms POST /api] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/chz/Desktop/credit/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/chz/Desktop/credit/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    sql: SELECT `id`, `no`, `time`, `status`, `money`, `days`, `times`, `deadline`, `total` FROM `cd_user_order` WHERE `userid` = '60' ORDER BY `id` DESC LIMIT NaN, 10
+code: 'ER_SP_UNDECLARED_VAR'
+errno: 1327
+sqlMessage: 'Undeclared variable: NaN'
+sqlState: '42000'
+index: 0
+sql: 'SELECT `id`, `no`, `time`, `status`, `money`, `days`, `times`, `deadline`, `total` FROM `cd_user_order` WHERE `userid` = \'60\' ORDER BY `id` DESC LIMIT NaN, 10'
+name: 'ER_SP_UNDECLARED_VARError'
+pid: 39809
+hostname: loveRain.local
+
+2018-04-19 22:54:15,936 ERROR 39809 [-/192.168.10.158/-/9ms POST /api] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/chz/Desktop/credit/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/chz/Desktop/credit/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    sql: SELECT `id`, `no`, `time`, `status`, `money`, `days`, `times`, `deadline`, `total` FROM `cd_user_order` WHERE `userid` = '60' ORDER BY `id` DESC LIMIT NaN, 10
+code: 'ER_SP_UNDECLARED_VAR'
+errno: 1327
+sqlMessage: 'Undeclared variable: NaN'
+sqlState: '42000'
+index: 0
+sql: 'SELECT `id`, `no`, `time`, `status`, `money`, `days`, `times`, `deadline`, `total` FROM `cd_user_order` WHERE `userid` = \'60\' ORDER BY `id` DESC LIMIT NaN, 10'
+name: 'ER_SP_UNDECLARED_VARError'
+pid: 39809
+hostname: loveRain.local
+
+2018-04-19 22:54:30,900 ERROR 39809 [-/192.168.10.158/-/7ms POST /api] nodejs.ER_SP_UNDECLARED_VARError: ER_SP_UNDECLARED_VAR: Undeclared variable: NaN
+    at Query.Sequence._packetToError (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Sequence.js:52:14)
+    at Query.ErrorPacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/sequences/Query.js:77:18)
+    at Protocol._parsePacket (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/Users/chz/Desktop/credit/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/Users/chz/Desktop/credit/node_modules/mysql/lib/Connection.js:103:28)
+    at emitOne (events.js:96:13)
+    at Socket.emit (events.js:191:7)
+    at readableAddChunk (_stream_readable.js:176:18)
+    at Socket.Readable.push (_stream_readable.js:134:10)
+    --------------------
+    at Pool.query (/Users/chz/Desktop/credit/node_modules/mysql/lib/Pool.js:199:23)
+    at /Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:29:7
+    at Pool.<anonymous> (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/chz/Desktop/credit/node_modules/ali-rds/node_modules/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/chz/Desktop/credit/node_modules/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (/Users/chz/Desktop/credit/node_modules/co/index.js:65:19)
+    at /Users/chz/Desktop/credit/node_modules/co/index.js:54:5
+    at RDSClient.co (/Users/chz/Desktop/credit/node_modules/co/index.js:50:10)
+    sql: SELECT `id`, `no`, `time`, `status`, `money`, `days`, `times`, `deadline`, `total` FROM `cd_user_order` WHERE `userid` = '61' ORDER BY `id` DESC LIMIT NaN, 10
+code: 'ER_SP_UNDECLARED_VAR'
+errno: 1327
+sqlMessage: 'Undeclared variable: NaN'
+sqlState: '42000'
+index: 0
+sql: 'SELECT `id`, `no`, `time`, `status`, `money`, `days`, `times`, `deadline`, `total` FROM `cd_user_order` WHERE `userid` = \'61\' ORDER BY `id` DESC LIMIT NaN, 10'
+name: 'ER_SP_UNDECLARED_VARError'
+pid: 39809
+hostname: loveRain.local
+

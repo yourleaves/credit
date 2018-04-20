@@ -12,13 +12,12 @@ const smsClient = new SMSClient({accessKeyId, secretAccessKey});
 
 class ApiController extends Controller {
   async index() {
-    const request_params= this.ctx.request.query;
+    const request_params= this.ctx.request.body;
     const type = request_params["interface"];
     const timestamp=new Date().getTime();
     const ctx = this.ctx;
 
-    switch(type)
-    { 
+    switch(type)    { 
       case "login":
         await this.ApiLogin(request_params,timestamp,ctx);
         break;
@@ -37,9 +36,6 @@ class ApiController extends Controller {
       case "limit":
         await this.getUserLimit(request_params,timestamp,ctx);
         break; 
-      case "uploadImage":
-        await this.commitImage(request_params,timestamp,ctx);
-        break;
       case "uploadInfo":
         await this.commitUserInfo(request_params,timestamp,ctx);
         break;
@@ -49,7 +45,18 @@ class ApiController extends Controller {
       case "orderList":
         await this.orderList(request_params,timestamp,ctx);
         break;
+      case "orderDetail":
+        await this.getOrderDetail(request_params,timestamp,ctx);
+        break;
+      case "commitOrder":
+        await this.addOrder(request_params,timestamp,ctx);
+        break;
+      case "alertPassword":
+        await this.changePassword(request_params,timestamp,ctx);
+        break;
       default:
+        await this.commitImage(request_params,timestamp,ctx);
+        break;
     }
 
   }
@@ -68,7 +75,7 @@ class ApiController extends Controller {
     if (result == "OK"){
       ctx.session.user = account;
       ctx.session.maxAge = ms('10d');
-      ctx.body = await this.jsonResult("登录成功",200,"登录成功!");
+      ctx.body = await this.jsonResult({mobile:account},200,"登录成功!");
     }else{
       ctx.body = await this.jsonResult("",201,"账号密码错误!");
     }
@@ -94,7 +101,9 @@ class ApiController extends Controller {
       ctx.body = await this.jsonResult("",201,"验证码不正确!");;
     }
   }
+
   //忘记密码接口
+  
   async ApiForget(request_params,timestamp,ctx){
     const number = request_params["phone"];
     const code = request_params["code"];
@@ -186,8 +195,9 @@ class ApiController extends Controller {
       ctx.body = await this.jsonResult(socre,200,"请求成功!");
     }
   }
-  // 获取当前额度
 
+  // 获取当前额度
+  
   async getUserLimit(request_params,timestamp,ctx){
 
     const user = await this.validateSession(ctx);
@@ -198,7 +208,7 @@ class ApiController extends Controller {
 
     const limit = await ctx.service.mysql.getUserLimit(user["id"]) 
     if (limit == "FAIL"){
-      ctx.body = await this.jsonResult({"socre":"0"},200,"请求成功!");
+      ctx.body = await this.jsonResult({"limit":"0","time":"0","pay":"0"},200,"请求成功!");
     }else{
       ctx.body = await this.jsonResult(limit,200,"请求成功!");
     }
@@ -234,16 +244,41 @@ class ApiController extends Controller {
       ctx.body = await this.jsonResult(ctx.session.user,202,"用户未登录!");
       return;
     }
+    request_params["time"] = timestamp;
     const result = await ctx.service.mysql.commitInfo(user["id"],request_params); 
     if (result == "FAIL"){
-      ctx.body = await this.jsonResult({"socre":"0"},201,"提交失败!");
+      ctx.body = await this.jsonResult("",201,"提交失败!");
     }else{
-      ctx.body = await this.jsonResult("提交成功",200,"提交成功!");
+      const update = await ctx.service.mysql.updateAuthList(user["id"],type); 
+      if (update == "FAIL"){
+        ctx.body = await this.jsonResult("",202,"提交失败!");
+      }else{
+        ctx.body = await this.jsonResult("提交成功",200,"提交成功!");
+      }
+      
     }
 
   }
 
-  //获取当前订单列表
+  //获取订单列表
+
+  async getOrderDetail(request_params,timestamp,ctx){
+
+    const user = await this.validateSession(ctx);
+    if (user == "FAIL"){
+      ctx.body = await this.jsonResult(ctx.session.user,202,"用户未登录!");
+      return;
+    }
+
+    const id = request_params["id"];
+    const order = await ctx.service.mysql.getOrderDetail(id);
+    if (order == "FAIL"){
+      ctx.body = await this.jsonResult([],201,"请求失败!");
+    }else{
+      ctx.body = await this.jsonResult(order,200,"请求成功!");
+    }
+
+  }
 
   async orderList(request_params,timestamp,ctx){
 
@@ -252,8 +287,8 @@ class ApiController extends Controller {
       ctx.body = await this.jsonResult(ctx.session.user,202,"用户未登录!");
       return;
     }
-
-    const limit = await ctx.service.mysql.getOrderList(user["id"]) 
+    const offset = request_params["offset"];
+    const limit = await ctx.service.mysql.getOrderList(user["id"],parseInt(offset));
     if (limit == "FAIL"){
       ctx.body = await this.jsonResult([],200,"请求成功!");
     }else{
@@ -262,22 +297,73 @@ class ApiController extends Controller {
 
   }
 
-  async commitImage(request_params,timestamp,ctx) {
+  //提交订单
 
-    const type = request_params["type"];
-
+  async addOrder(request_params,timestamp,ctx){
     const user = await this.validateSession(ctx);
     if (user == "FAIL"){
       ctx.body = await this.jsonResult(ctx.session.user,202,"用户未登录!");
       return;
     }
 
+    const limit = await ctx.service.mysql.getUserLimit(user["id"]);
+    if (limit == "FAIL"){
+      ctx.body = await this.jsonResult([],201,"您当前额度不够,无法申请!");
+      return;
+    }
+    if (parseInt(limit["limit"]) <=0){
+      ctx.body = await this.jsonResult([],201,"您当前额度不够,无法申请!");
+      return;
+    }
+  
+    const socre = await ctx.service.mysql.getUserScore(user["id"]);
+    if (socre == "FAIL"){
+      ctx.body = await this.jsonResult("",203,"您当前信用值不够,无法申请!");
+      return;
+    }
+    if (parseInt(socre["score"]) <=0){
+      ctx.body = await this.jsonResult("",203,"您当前信用值不够,无法申请!");
+      return;
+    }
+
+    let id = user["id"];
+    let noid = timestamp + "" + id;
+    let addTime = timestamp;
+    let s = "1";
+    let m = limit["pay"];
+    let ts = "1";
+    let days = limit["time"];
+    let daysInt = parseInt(days);
+    var d = new Date();
+        d.setDate(d.getDate() + daysInt);
+    let dl = d.getTime();
+    let tl = limit["limit"];
+    
+    const result = await ctx.service.mysql.addUserOrder(noid,id,addTime,s,m,ts,dl,tl,days);
+    if (result == "FAIL"){
+      ctx.body = await this.jsonResult([],201,"提交失败成功!");
+    }else{
+      ctx.body = await this.jsonResult("",200,"请求成功!");
+    }
+  }
+
+// 上传图片
+  async commitImage(request_params,timestamp,ctx) {
+    const user = await this.validateSession(ctx);
+    if (user == "FAIL"){
+      ctx.body = await this.jsonResult(ctx.session.user,202,"用户未登录!");
+      return;
+    }
     const parts = ctx.multipart();
     let part;
-    var imgs=new Array()
+    var imgs = new Array();
+    var type = "";
     while ((part = await parts()) != null) {
       if (part.length) {
         // arrays are busboy fields
+        if (part[0] == "type"){
+          type = part[1];
+        }
         console.log('field: ' + part[0]);
         console.log('value: ' + part[1]);
         console.log('valueTruncated: ' + part[2]);
@@ -306,30 +392,63 @@ class ApiController extends Controller {
       }
     }
 
-    var keyVaule = request_params;
-    if (type == "1_1"){
-      keyVaule["image1"] = imgs[0];
-      keyVaule["image2"] = imgs[1];
+    var keyVaule = {};
+    if (imgs.length == 2){
+      if (type == "1_1"){
+        keyVaule["image1"] = imgs[0];
+        keyVaule["image2"] = imgs[1];
+      }else{
+        keyVaule["image3"] = imgs[0];
+        keyVaule["image4"] = imgs[1];
+      }
+      keyVaule["interface"] = "upload";
+      keyVaule["type"] = type;
+    
     }else{
-      keyVaule["image3"] = imgs[0];
-      keyVaule["image4"] = imgs[1];
+      ctx.body = await this.jsonResult(imgs,201,"上传失败!");
+      return;
     }
-
-    const commitResult = await ctx.service.mysql.commitInfo(user,keyVaule);
+    request_params["time"] = timestamp;
+    const commitResult = await ctx.service.mysql.commitInfo(user["id"],keyVaule);
     if (commitResult == "FAIL"){
       ctx.body = await this.jsonResult("",201,"提交失败!");
     }else{
-      ctx.body = await this.jsonResult("提交成功",200,"提交成功!");
+      const update = await ctx.service.mysql.updateAuthList(user["id"],type); 
+      if (update == "FAIL"){
+        ctx.body = await this.jsonResult("",202,"提交失败!");
+      }else{
+        ctx.body = await this.jsonResult("提交成功",200,"提交成功!");
+      }
     }
+
   }
   
+  async changePassword(request_params,timestamp,ctx){
+    const user = await this.validateSession(ctx);
+    if (user == "FAIL"){
+      ctx.body = await this.jsonResult(ctx.session.user,202,"用户未登录!");
+      return;
+    }
+    const newpwd = request_params["new"];
+    const oldpwd = request_params["old"];
+
+    const result = await this.ctx.service.mysql.changePassword(user["id"],oldpwd,newpwd);
+    if (result == "OK"){
+      ctx.body = await this.jsonResult("修改成功",200,"操作成功!");
+    }else if (result == "NOFIND"){
+      ctx.body = await this.jsonResult("",203,"旧密码不争取!");
+    }else{
+      ctx.body = await this.jsonResult("",201,"修改失败!");
+    }
+
+  }
 //tools
   
   async  validateSession(ctx){
     let phone = ctx.session.user;
     const user = await ctx.service.mysql.findUser(phone);
     if (user == "FAIL"){
-      return "FAIL"
+      return "FAIL";
     }else{
       ctx.session.maxAge = ms('10d');
       return  user;
