@@ -635,3 +635,380 @@ headerSent: true
 pid: 48212
 hostname: loveRain.local
 
+2018-04-20 18:06:29,205 ERROR 57246 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-04-20 18:06:29,211 ERROR 57246 [-/undefined/-/45ms GET /download] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:695:19)
+    at Socket._write (net.js:746:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:673:40)
+    at Socket.Writable.end (_stream_writable.js:475:10)
+    at Socket.end (net.js:443:31)
+    at Application.onClientError (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:85:12)
+    at Server.server.on (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:103:52)
+headerSent: true
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:15,741 ERROR 57246 [-/127.0.0.1/-/26ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:19,604 ERROR 57246 [-/127.0.0.1/-/1ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:19,685 ERROR 57246 [-/127.0.0.1/-/0ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:23,023 ERROR 57246 [-/127.0.0.1/-/1ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:23,089 ERROR 57246 [-/127.0.0.1/-/1ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:49,885 ERROR 57246 [-/127.0.0.1/-/2ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:49,962 ERROR 57246 [-/127.0.0.1/-/1ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:50,532 ERROR 57246 [-/127.0.0.1/-/2ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:50,602 ERROR 57246 [-/127.0.0.1/-/1ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:52,376 ERROR 57246 [-/127.0.0.1/-/1ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:52,447 ERROR 57246 [-/127.0.0.1/-/1ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:53,104 ERROR 57246 [-/127.0.0.1/-/0ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:53,169 ERROR 57246 [-/127.0.0.1/-/0ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:53,291 ERROR 57246 [-/127.0.0.1/-/0ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:53,363 ERROR 57246 [-/127.0.0.1/-/1ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:53,465 ERROR 57246 [-/127.0.0.1/-/1ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:53,543 ERROR 57246 [-/127.0.0.1/-/0ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:53,630 ERROR 57246 [-/127.0.0.1/-/0ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:53,723 ERROR 57246 [-/127.0.0.1/-/0ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:53,815 ERROR 57246 [-/127.0.0.1/-/0ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:53,968 ERROR 57246 [-/127.0.0.1/-/0ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:54,062 ERROR 57246 [-/127.0.0.1/-/0ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:54,082 ERROR 57246 A client (::ffff:127.0.0.1:64838) error [ECONNRESET] occurred: read ECONNRESET
+2018-04-20 20:21:54,139 ERROR 57246 [-/127.0.0.1/-/0ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:54,286 ERROR 57246 [-/127.0.0.1/-/1ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:54,430 ERROR 57246 [-/127.0.0.1/-/1ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:54,475 ERROR 57246 [-/127.0.0.1/-/0ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:54,565 ERROR 57246 [-/127.0.0.1/-/1ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:54,660 ERROR 57246 [-/127.0.0.1/-/0ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:54,721 ERROR 57246 [-/127.0.0.1/-/0ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:54,799 ERROR 57246 [-/127.0.0.1/-/0ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:55,031 ERROR 57246 [-/127.0.0.1/-/0ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:55,105 ERROR 57246 [-/127.0.0.1/-/1ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:55,516 ERROR 57246 [-/127.0.0.1/-/0ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:21:55,624 ERROR 57246 [-/127.0.0.1/-/0ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:22:31,280 ERROR 57246 [-/127.0.0.1/-/1ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+
+2018-04-20 20:22:31,429 ERROR 57246 [-/127.0.0.1/-/1ms GET /public/assets/js/vendor/jquery-1.11.2.min.js] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+errno: -2
+code: 'ENOENT'
+syscall: 'stat'
+path: '/Users/chz/Desktop/credit/app/public/assets/js/vendor/jquery-1.11.2.min.js'
+name: 'ENOENTError'
+pid: 57246
+hostname: loveRain.local
+

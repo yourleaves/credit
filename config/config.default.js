@@ -30,6 +30,7 @@ module.exports = appInfo => {
     ].join(','),
     defaultViewEngine: 'nunjucks'
   };
+  
   config.security = {
     csrf:{
       ignore: '/api'
