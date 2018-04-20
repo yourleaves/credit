@@ -187,6 +187,7 @@
       "egg-mysql": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
       "egg-oss": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
       "egg-scripts": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
+      "egg-static": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
       "egg-view-nunjucks": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js",
       "stream-wormhole": "/Users/chz/Desktop/credit/node_modules/egg/config/config.default.js"
     },

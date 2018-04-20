@@ -693,3 +693,146 @@
 2018-04-20 15:04:57,470 INFO 52230 [egg-security] compose 7 middlewares into one security middleware
 2018-04-20 15:04:57,597 INFO 52230 [egg-watcher:app] watcher start success
 2018-04-20 15:04:57,617 INFO 52230 [egg-mysql] instance[0] status OK, rds currentTime: Fri Apr 20 2018 15:04:57 GMT+0800 (CST)
+2018-04-20 15:32:50,882 INFO 53402 [egg:logger] init all loggers with options: {"dir":"/Users/chz/Desktop/credit/logs/credit","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"credit-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-04-20 15:32:50,935 INFO 53402 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-04-20 15:32:50,935 INFO 53402 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-04-20 15:32:50,949 INFO 53402 [egg-mysql] connecting root@127.0.0.1:3306/credit
+2018-04-20 15:32:51,328 INFO 53402 [egg-static] starting static serve /public/ -> /Users/chz/Desktop/credit/app/public
+2018-04-20 15:32:51,336 INFO 53402 [egg-security] use csrf middleware
+2018-04-20 15:32:51,338 INFO 53402 [egg-security] use methodnoallow middleware
+2018-04-20 15:32:51,339 INFO 53402 [egg-security] use noopen middleware
+2018-04-20 15:32:51,340 INFO 53402 [egg-security] use nosniff middleware
+2018-04-20 15:32:51,341 INFO 53402 [egg-security] use xssProtection middleware
+2018-04-20 15:32:51,342 INFO 53402 [egg-security] use xframe middleware
+2018-04-20 15:32:51,343 INFO 53402 [egg-security] use dta middleware
+2018-04-20 15:32:51,343 INFO 53402 [egg-security] compose 7 middlewares into one security middleware
+2018-04-20 15:32:51,446 INFO 53402 [egg-watcher:app] watcher start success
+2018-04-20 15:32:51,483 INFO 53402 [egg-mysql] instance[0] status OK, rds currentTime: Fri Apr 20 2018 15:32:51 GMT+0800 (CST)
+2018-04-20 15:32:53,864 INFO 53402 [egg-view-nunjucks] loading templates from ["/Users/chz/Desktop/credit/app/view"]
+2018-04-20 15:35:24,986 INFO 53479 [egg:logger] init all loggers with options: {"dir":"/Users/chz/Desktop/credit/logs/credit","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"credit-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-04-20 15:35:25,089 INFO 53479 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-04-20 15:35:25,089 INFO 53479 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-04-20 15:35:25,106 INFO 53479 [egg-mysql] connecting root@127.0.0.1:3306/credit
+2018-04-20 15:35:25,412 INFO 53479 [egg-static] starting static serve /public/ -> /Users/chz/Desktop/credit/app/public
+2018-04-20 15:35:25,416 INFO 53479 [egg-security] use csrf middleware
+2018-04-20 15:35:25,417 INFO 53479 [egg-security] use methodnoallow middleware
+2018-04-20 15:35:25,418 INFO 53479 [egg-security] use noopen middleware
+2018-04-20 15:35:25,419 INFO 53479 [egg-security] use nosniff middleware
+2018-04-20 15:35:25,419 INFO 53479 [egg-security] use xssProtection middleware
+2018-04-20 15:35:25,420 INFO 53479 [egg-security] use xframe middleware
+2018-04-20 15:35:25,421 INFO 53479 [egg-security] use dta middleware
+2018-04-20 15:35:25,421 INFO 53479 [egg-security] compose 7 middlewares into one security middleware
+2018-04-20 15:35:25,518 INFO 53479 [egg-watcher:app] watcher start success
+2018-04-20 15:35:25,521 INFO 53479 [egg-mysql] instance[0] status OK, rds currentTime: Fri Apr 20 2018 15:35:25 GMT+0800 (CST)
+2018-04-20 15:35:32,083 INFO 53479 [egg-view-nunjucks] loading templates from ["/Users/chz/Desktop/credit/app/view"]
+2018-04-20 15:35:56,567 INFO 53513 [egg:logger] init all loggers with options: {"dir":"/Users/chz/Desktop/credit/logs/credit","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"credit-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-04-20 15:35:56,632 INFO 53513 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-04-20 15:35:56,632 INFO 53513 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-04-20 15:35:56,658 INFO 53513 [egg-mysql] connecting root@127.0.0.1:3306/credit
+2018-04-20 15:35:57,048 INFO 53513 [egg-static] starting static serve /public/ -> /Users/chz/Desktop/credit/app/public
+2018-04-20 15:35:57,053 INFO 53513 [egg-security] use csrf middleware
+2018-04-20 15:35:57,054 INFO 53513 [egg-security] use methodnoallow middleware
+2018-04-20 15:35:57,055 INFO 53513 [egg-security] use noopen middleware
+2018-04-20 15:35:57,056 INFO 53513 [egg-security] use nosniff middleware
+2018-04-20 15:35:57,057 INFO 53513 [egg-security] use xssProtection middleware
+2018-04-20 15:35:57,058 INFO 53513 [egg-security] use xframe middleware
+2018-04-20 15:35:57,060 INFO 53513 [egg-security] use dta middleware
+2018-04-20 15:35:57,060 INFO 53513 [egg-security] compose 7 middlewares into one security middleware
+2018-04-20 15:35:57,159 INFO 53513 [egg-watcher:app] watcher start success
+2018-04-20 15:35:57,162 INFO 53513 [egg-mysql] instance[0] status OK, rds currentTime: Fri Apr 20 2018 15:35:57 GMT+0800 (CST)
+2018-04-20 15:36:21,787 INFO 53549 [egg:logger] init all loggers with options: {"dir":"/Users/chz/Desktop/credit/logs/credit","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"credit-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-04-20 15:36:21,904 INFO 53549 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-04-20 15:36:21,904 INFO 53549 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-04-20 15:36:21,928 INFO 53549 [egg-mysql] connecting root@127.0.0.1:3306/credit
+2018-04-20 15:36:22,139 INFO 53549 [egg-static] starting static serve /public/ -> /Users/chz/Desktop/credit/app/public
+2018-04-20 15:36:22,143 INFO 53549 [egg-security] use csrf middleware
+2018-04-20 15:36:22,144 INFO 53549 [egg-security] use methodnoallow middleware
+2018-04-20 15:36:22,144 INFO 53549 [egg-security] use noopen middleware
+2018-04-20 15:36:22,144 INFO 53549 [egg-security] use nosniff middleware
+2018-04-20 15:36:22,145 INFO 53549 [egg-security] use xssProtection middleware
+2018-04-20 15:36:22,145 INFO 53549 [egg-security] use xframe middleware
+2018-04-20 15:36:22,146 INFO 53549 [egg-security] use dta middleware
+2018-04-20 15:36:22,146 INFO 53549 [egg-security] compose 7 middlewares into one security middleware
+2018-04-20 15:36:22,216 INFO 53549 [egg-watcher:app] watcher start success
+2018-04-20 15:36:22,218 INFO 53549 [egg-mysql] instance[0] status OK, rds currentTime: Fri Apr 20 2018 15:36:22 GMT+0800 (CST)
+2018-04-20 15:36:34,920 INFO 53549 [egg-view-nunjucks] loading templates from ["/Users/chz/Desktop/credit/app/view"]
+2018-04-20 15:36:34,536 INFO 53579 [egg:logger] init all loggers with options: {"dir":"/Users/chz/Desktop/credit/logs/credit","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"credit-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-04-20 15:36:34,623 INFO 53579 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-04-20 15:36:34,623 INFO 53579 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-04-20 15:36:34,638 INFO 53579 [egg-mysql] connecting root@127.0.0.1:3306/credit
+2018-04-20 15:36:34,874 INFO 53579 [egg-static] starting static serve /public/ -> /Users/chz/Desktop/credit/app/public
+2018-04-20 15:36:34,878 INFO 53579 [egg-security] use csrf middleware
+2018-04-20 15:36:34,878 INFO 53579 [egg-security] use methodnoallow middleware
+2018-04-20 15:36:34,879 INFO 53579 [egg-security] use noopen middleware
+2018-04-20 15:36:34,879 INFO 53579 [egg-security] use nosniff middleware
+2018-04-20 15:36:34,879 INFO 53579 [egg-security] use xssProtection middleware
+2018-04-20 15:36:34,880 INFO 53579 [egg-security] use xframe middleware
+2018-04-20 15:36:34,881 INFO 53579 [egg-security] use dta middleware
+2018-04-20 15:36:34,881 INFO 53579 [egg-security] compose 7 middlewares into one security middleware
+2018-04-20 15:36:34,985 INFO 53579 [egg-watcher:app] watcher start success
+2018-04-20 15:36:34,990 INFO 53579 [egg-mysql] instance[0] status OK, rds currentTime: Fri Apr 20 2018 15:36:34 GMT+0800 (CST)
+2018-04-20 15:36:35,579 INFO 53579 [egg-view-nunjucks] loading templates from ["/Users/chz/Desktop/credit/app/view"]
+2018-04-20 15:36:39,028 INFO 53588 [egg:logger] init all loggers with options: {"dir":"/Users/chz/Desktop/credit/logs/credit","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"credit-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-04-20 15:36:39,108 INFO 53588 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-04-20 15:36:39,109 INFO 53588 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-04-20 15:36:39,123 INFO 53588 [egg-mysql] connecting root@127.0.0.1:3306/credit
+2018-04-20 15:36:39,341 INFO 53588 [egg-static] starting static serve /public/ -> /Users/chz/Desktop/credit/app/public
+2018-04-20 15:36:39,345 INFO 53588 [egg-security] use csrf middleware
+2018-04-20 15:36:39,345 INFO 53588 [egg-security] use methodnoallow middleware
+2018-04-20 15:36:39,345 INFO 53588 [egg-security] use noopen middleware
+2018-04-20 15:36:39,346 INFO 53588 [egg-security] use nosniff middleware
+2018-04-20 15:36:39,346 INFO 53588 [egg-security] use xssProtection middleware
+2018-04-20 15:36:39,346 INFO 53588 [egg-security] use xframe middleware
+2018-04-20 15:36:39,347 INFO 53588 [egg-security] use dta middleware
+2018-04-20 15:36:39,347 INFO 53588 [egg-security] compose 7 middlewares into one security middleware
+2018-04-20 15:36:39,422 INFO 53588 [egg-watcher:app] watcher start success
+2018-04-20 15:36:39,425 INFO 53588 [egg-mysql] instance[0] status OK, rds currentTime: Fri Apr 20 2018 15:36:39 GMT+0800 (CST)
+2018-04-20 15:36:39,594 INFO 53588 [egg-view-nunjucks] loading templates from ["/Users/chz/Desktop/credit/app/view"]
+2018-04-20 15:37:09,250 INFO 53627 [egg:logger] init all loggers with options: {"dir":"/Users/chz/Desktop/credit/logs/credit","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"credit-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-04-20 15:37:09,326 INFO 53627 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-04-20 15:37:09,326 INFO 53627 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-04-20 15:37:09,347 INFO 53627 [egg-mysql] connecting root@127.0.0.1:3306/credit
+2018-04-20 15:37:09,740 INFO 53627 [egg-static] starting static serve /public/ -> /Users/chz/Desktop/credit/app/public
+2018-04-20 15:37:09,747 INFO 53627 [egg-security] use csrf middleware
+2018-04-20 15:37:09,748 INFO 53627 [egg-security] use methodnoallow middleware
+2018-04-20 15:37:09,749 INFO 53627 [egg-security] use noopen middleware
+2018-04-20 15:37:09,750 INFO 53627 [egg-security] use nosniff middleware
+2018-04-20 15:37:09,750 INFO 53627 [egg-security] use xssProtection middleware
+2018-04-20 15:37:09,751 INFO 53627 [egg-security] use xframe middleware
+2018-04-20 15:37:09,752 INFO 53627 [egg-security] use dta middleware
+2018-04-20 15:37:09,752 INFO 53627 [egg-security] compose 7 middlewares into one security middleware
+2018-04-20 15:37:09,859 INFO 53627 [egg-watcher:app] watcher start success
+2018-04-20 15:37:09,861 INFO 53627 [egg-mysql] instance[0] status OK, rds currentTime: Fri Apr 20 2018 15:37:09 GMT+0800 (CST)
+2018-04-20 15:37:10,110 INFO 53627 [egg-view-nunjucks] loading templates from ["/Users/chz/Desktop/credit/app/view"]
+2018-04-20 15:43:15,865 INFO 54000 [egg:logger] init all loggers with options: {"dir":"/Users/chz/Desktop/credit/logs/credit","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"credit-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-04-20 15:43:15,929 INFO 54000 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-04-20 15:43:15,929 INFO 54000 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-04-20 15:43:15,955 INFO 54000 [egg-mysql] connecting root@127.0.0.1:3306/credit
+2018-04-20 15:43:16,349 INFO 54000 [egg-static] starting static serve /public/ -> /Users/chz/Desktop/credit/app/public
+2018-04-20 15:43:16,355 INFO 54000 [egg-security] use csrf middleware
+2018-04-20 15:43:16,356 INFO 54000 [egg-security] use methodnoallow middleware
+2018-04-20 15:43:16,357 INFO 54000 [egg-security] use noopen middleware
+2018-04-20 15:43:16,358 INFO 54000 [egg-security] use nosniff middleware
+2018-04-20 15:43:16,359 INFO 54000 [egg-security] use xssProtection middleware
+2018-04-20 15:43:16,360 INFO 54000 [egg-security] use xframe middleware
+2018-04-20 15:43:16,361 INFO 54000 [egg-security] use dta middleware
+2018-04-20 15:43:16,361 INFO 54000 [egg-security] compose 7 middlewares into one security middleware
+2018-04-20 15:43:16,652 INFO 54000 [egg-watcher:app] watcher start success
+2018-04-20 15:43:16,662 INFO 54000 [egg-mysql] instance[0] status OK, rds currentTime: Fri Apr 20 2018 15:43:16 GMT+0800 (CST)
+2018-04-20 15:43:19,785 INFO 54000 [egg-view-nunjucks] loading templates from ["/Users/chz/Desktop/credit/app/view"]
+2018-04-20 17:00:51,710 INFO 55847 [egg:logger] init all loggers with options: {"dir":"/Users/chz/Desktop/credit/logs/credit","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"credit-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-04-20 17:00:51,798 INFO 55847 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-04-20 17:00:51,798 INFO 55847 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-04-20 17:00:51,827 INFO 55847 [egg-mysql] connecting root@127.0.0.1:3306/credit
+2018-04-20 17:00:52,199 INFO 55847 [egg-static] starting static serve /public/ -> /Users/chz/Desktop/credit/app/public
+2018-04-20 17:00:52,207 INFO 55847 [egg-security] use csrf middleware
+2018-04-20 17:00:52,208 INFO 55847 [egg-security] use methodnoallow middleware
+2018-04-20 17:00:52,209 INFO 55847 [egg-security] use noopen middleware
+2018-04-20 17:00:52,210 INFO 55847 [egg-security] use nosniff middleware
+2018-04-20 17:00:52,211 INFO 55847 [egg-security] use xssProtection middleware
+2018-04-20 17:00:52,212 INFO 55847 [egg-security] use xframe middleware
+2018-04-20 17:00:52,213 INFO 55847 [egg-security] use dta middleware
+2018-04-20 17:00:52,213 INFO 55847 [egg-security] compose 7 middlewares into one security middleware
+2018-04-20 17:00:52,328 INFO 55847 [egg-watcher:app] watcher start success
+2018-04-20 17:00:52,389 INFO 55847 [egg-mysql] instance[0] status OK, rds currentTime: Fri Apr 20 2018 17:00:52 GMT+0800 (CST)
+2018-04-20 17:00:55,009 INFO 55847 [egg-view-nunjucks] loading templates from ["/Users/chz/Desktop/credit/app/view"]
