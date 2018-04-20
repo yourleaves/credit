@@ -20,6 +20,14 @@ class HomeController extends Controller {
     this.ctx.body = fs.createReadStream(filePath);
   }
 
+  async kefuQRImage() {
+
+    const filePath = path.resolve(this.app.config.static.dir, 'kefu.jpeg');
+    this.ctx.attachment('kefu.jpeg');
+    this.ctx.set('Content-Type', 'application/octet-stream');
+    this.ctx.body = fs.createReadStream(filePath);
+  }
+
    async upload() {
     const ctx = this.ctx;
     const parts = ctx.multipart();

@@ -603,3 +603,35 @@ hostname: loveRain.local
 pid: 48138
 hostname: loveRain.local
 
+2018-04-20 13:40:19,931 ERROR 48212 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-04-20 13:40:19,937 ERROR 48212 [-/undefined/-/37ms GET /download] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:695:19)
+    at Socket._write (net.js:746:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:673:40)
+    at Socket.Writable.end (_stream_writable.js:475:10)
+    at Socket.end (net.js:443:31)
+    at Application.onClientError (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:85:12)
+    at Server.server.on (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:103:52)
+headerSent: true
+pid: 48212
+hostname: loveRain.local
+
+2018-04-20 13:40:19,948 ERROR 48212 A client (undefined:NaN) error [EPIPE] occurred: write EPIPE
+2018-04-20 13:40:19,949 ERROR 48212 [-/undefined/-/10ms GET /download] nodejs.Error: This socket is closed
+    at Socket._writeGeneric (net.js:695:19)
+    at Socket._write (net.js:746:8)
+    at doWrite (_stream_writable.js:329:12)
+    at writeOrBuffer (_stream_writable.js:315:5)
+    at Socket.Writable.write (_stream_writable.js:241:11)
+    at Socket.write (net.js:673:40)
+    at Socket.Writable.end (_stream_writable.js:475:10)
+    at Socket.end (net.js:443:31)
+    at Application.onClientError (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:85:12)
+    at Server.server.on (/Users/chz/Desktop/credit/node_modules/egg/lib/application.js:103:52)
+headerSent: true
+pid: 48212
+hostname: loveRain.local
+
