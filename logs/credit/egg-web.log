@@ -931,3 +931,19 @@
 2018-04-20 20:33:07,702 INFO 61897 [egg-watcher:app] watcher start success
 2018-04-20 20:33:07,707 INFO 61897 [egg-mysql] instance[0] status OK, rds currentTime: Fri Apr 20 2018 20:33:07 GMT+0800 (CST)
 2018-04-20 20:33:09,324 INFO 61897 [egg-view-nunjucks] loading templates from ["/Users/chz/Desktop/credit/app/view"]
+2018-04-20 21:44:32,632 INFO 63598 [egg:logger] init all loggers with options: {"dir":"/Users/chz/Desktop/credit/logs/credit","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"credit-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-04-20 21:44:32,703 INFO 63598 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/clean_log.js
+2018-04-20 21:44:32,703 INFO 63598 [egg-schedule]: register schedule /Users/chz/Desktop/credit/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2018-04-20 21:44:32,717 INFO 63598 [egg-mysql] connecting root@127.0.0.1:3306/credit
+2018-04-20 21:44:33,204 INFO 63598 [egg-static] starting static serve /public/ -> /Users/chz/Desktop/credit/app/public
+2018-04-20 21:44:33,210 INFO 63598 [egg-security] use csrf middleware
+2018-04-20 21:44:33,212 INFO 63598 [egg-security] use methodnoallow middleware
+2018-04-20 21:44:33,213 INFO 63598 [egg-security] use noopen middleware
+2018-04-20 21:44:33,214 INFO 63598 [egg-security] use nosniff middleware
+2018-04-20 21:44:33,215 INFO 63598 [egg-security] use xssProtection middleware
+2018-04-20 21:44:33,217 INFO 63598 [egg-security] use xframe middleware
+2018-04-20 21:44:33,218 INFO 63598 [egg-security] use dta middleware
+2018-04-20 21:44:33,218 INFO 63598 [egg-security] compose 7 middlewares into one security middleware
+2018-04-20 21:44:33,330 INFO 63598 [egg-watcher:app] watcher start success
+2018-04-20 21:44:33,334 INFO 63598 [egg-mysql] instance[0] status OK, rds currentTime: Fri Apr 20 2018 21:44:33 GMT+0800 (CST)
+2018-04-20 21:44:35,029 INFO 63598 [egg-view-nunjucks] loading templates from ["/Users/chz/Desktop/credit/app/view"]

@@ -20,8 +20,6 @@
         <link rel="stylesheet" href="/public/assets/css/style.css">
 
         <link rel="stylesheet" href="/public/assets/css/responsive.css" />
-
-        <script src="/public/assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
 
     <body data-spy="scroll" data-target=".navbar-collapse">
@@ -63,6 +61,7 @@
                             <li><a href="#home">首页</a></li>                    
                             <li><a href="#features">介绍</a></li>
                             <li><a href="#reviews">预览</a></li>
+                            <li><a href="#download">下载</a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div>   
