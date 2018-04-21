@@ -1063,3 +1063,113 @@ hostname: loveRain.local
 pid: 67852
 hostname: loveRain.local
 
+2018-04-21 16:35:02,762 ERROR 67924 [-/127.0.0.1/-/29ms GET /download] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/chz/Desktop/credit/app/public/youyoudai.apk'
+ENOENTError: ENOENT: no such file or directory, open '/Users/chz/Desktop/credit/app/public/youyoudai.apk'
+errno: -2
+code: 'ENOENT'
+syscall: 'open'
+path: '/Users/chz/Desktop/credit/app/public/youyoudai.apk'
+name: 'ENOENTError'
+pid: 67924
+hostname: loveRain.local
+
+2018-04-21 16:35:02,974 ERROR 67924 [-/127.0.0.1/-/2ms GET /download] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/chz/Desktop/credit/app/public/youyoudai.apk'
+ENOENTError: ENOENT: no such file or directory, open '/Users/chz/Desktop/credit/app/public/youyoudai.apk'
+errno: -2
+code: 'ENOENT'
+syscall: 'open'
+path: '/Users/chz/Desktop/credit/app/public/youyoudai.apk'
+name: 'ENOENTError'
+pid: 67924
+hostname: loveRain.local
+
+2018-04-21 16:35:05,977 ERROR 67924 [-/127.0.0.1/-/2ms GET /download] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/chz/Desktop/credit/app/public/youyoudai.apk'
+ENOENTError: ENOENT: no such file or directory, open '/Users/chz/Desktop/credit/app/public/youyoudai.apk'
+errno: -2
+code: 'ENOENT'
+syscall: 'open'
+path: '/Users/chz/Desktop/credit/app/public/youyoudai.apk'
+name: 'ENOENTError'
+pid: 67924
+hostname: loveRain.local
+
+2018-04-21 16:35:06,063 ERROR 67924 [-/127.0.0.1/-/2ms GET /download] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/chz/Desktop/credit/app/public/youyoudai.apk'
+ENOENTError: ENOENT: no such file or directory, open '/Users/chz/Desktop/credit/app/public/youyoudai.apk'
+errno: -2
+code: 'ENOENT'
+syscall: 'open'
+path: '/Users/chz/Desktop/credit/app/public/youyoudai.apk'
+name: 'ENOENTError'
+pid: 67924
+hostname: loveRain.local
+
+2018-04-21 16:35:34,614 ERROR 70419 [-/127.0.0.1/-/16ms GET /download] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/chz/Desktop/credit/app/public/youyoudai.apk'
+ENOENTError: ENOENT: no such file or directory, open '/Users/chz/Desktop/credit/app/public/youyoudai.apk'
+errno: -2
+code: 'ENOENT'
+syscall: 'open'
+path: '/Users/chz/Desktop/credit/app/public/youyoudai.apk'
+name: 'ENOENTError'
+pid: 70419
+hostname: loveRain.local
+
+2018-04-21 16:35:34,725 ERROR 70419 [-/127.0.0.1/-/4ms GET /download] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/chz/Desktop/credit/app/public/youyoudai.apk'
+ENOENTError: ENOENT: no such file or directory, open '/Users/chz/Desktop/credit/app/public/youyoudai.apk'
+errno: -2
+code: 'ENOENT'
+syscall: 'open'
+path: '/Users/chz/Desktop/credit/app/public/youyoudai.apk'
+name: 'ENOENTError'
+pid: 70419
+hostname: loveRain.local
+
+2018-04-21 16:36:46,009 ERROR 70493 [-/127.0.0.1/-/15ms GET /download] nodejs.ENOENTError: ENOENT: no such file or directory, open '/api/youyoudai.apk'
+ENOENTError: ENOENT: no such file or directory, open '/api/youyoudai.apk'
+errno: -2
+code: 'ENOENT'
+syscall: 'open'
+path: '/api/youyoudai.apk'
+name: 'ENOENTError'
+pid: 70493
+hostname: loveRain.local
+
+2018-04-21 16:36:46,110 ERROR 70493 [-/127.0.0.1/-/3ms GET /download] nodejs.ENOENTError: ENOENT: no such file or directory, open '/api/youyoudai.apk'
+ENOENTError: ENOENT: no such file or directory, open '/api/youyoudai.apk'
+errno: -2
+code: 'ENOENT'
+syscall: 'open'
+path: '/api/youyoudai.apk'
+name: 'ENOENTError'
+pid: 70493
+hostname: loveRain.local
+
+2018-04-21 16:36:48,349 ERROR 70493 [-/127.0.0.1/-/1ms GET /download] nodejs.ENOENTError: ENOENT: no such file or directory, open '/api/youyoudai.apk'
+ENOENTError: ENOENT: no such file or directory, open '/api/youyoudai.apk'
+errno: -2
+code: 'ENOENT'
+syscall: 'open'
+path: '/api/youyoudai.apk'
+name: 'ENOENTError'
+pid: 70493
+hostname: loveRain.local
+
+2018-04-21 16:36:48,412 ERROR 70493 [-/127.0.0.1/-/1ms GET /download] nodejs.ENOENTError: ENOENT: no such file or directory, open '/api/youyoudai.apk'
+ENOENTError: ENOENT: no such file or directory, open '/api/youyoudai.apk'
+errno: -2
+code: 'ENOENT'
+syscall: 'open'
+path: '/api/youyoudai.apk'
+name: 'ENOENTError'
+pid: 70493
+hostname: loveRain.local
+
+2018-04-21 16:36:53,454 ERROR 70493 [-/127.0.0.1/-/1ms GET /download] nodejs.ENOENTError: ENOENT: no such file or directory, open '/api/youyoudai.apk'
+ENOENTError: ENOENT: no such file or directory, open '/api/youyoudai.apk'
+errno: -2
+code: 'ENOENT'
+syscall: 'open'
+path: '/api/youyoudai.apk'
+name: 'ENOENTError'
+pid: 70493
+hostname: loveRain.local
+
